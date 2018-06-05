@@ -158,8 +158,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>FlagIntegrate</b> ()<
 <tr class="separator:ae86e99ef4becc0330ab6fb9adc4ea24a inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70df370011680353d549554adc80e75 inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#af70df370011680353d549554adc80e75">SetParticlesPermuted</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html">KLFitter::Particles</a> **particles)</td></tr>
 <tr class="separator:af70df370011680353d549554adc80e75 inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73447165b779c9198d6e8439dbe9d5b7 inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a73447165b779c9198d6e8439dbe9d5b7">SetET_miss_XY_SumET</a> (double etx, double ety, double sumet)=0</td></tr>
-<tr class="separator:a73447165b779c9198d6e8439dbe9d5b7 inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa3042f966e7aaa1bdb57236aea8abda inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afa3042f966e7aaa1bdb57236aea8abda">SetPermutations</a> (std::unique_ptr&lt; <a class="el" href="class_k_l_fitter_1_1_permutations.html">KLFitter::Permutations</a> &gt; *permutations)</td></tr>
 <tr class="separator:afa3042f966e7aaa1bdb57236aea8abda inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d915484487bd1efb773a65beb26de7 inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a08d915484487bd1efb773a65beb26de7">SetParameterRange</a> (int index, double parmin, double parmax)</td></tr>
@@ -555,6 +553,8 @@ Member functions (Set)</h2></td></tr>
 <br/>
  }</td></tr>
 <tr class="separator:a82fc6570fe7891a4b8c3f3fff0548302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8c0c9ff843ba47d40a002586c8ea1a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#adc8c0c9ff843ba47d40a002586c8ea1a">SetET_miss_XY_SumET</a> (double etx, double ety, double sumet) override</td></tr>
+<tr class="separator:adc8c0c9ff843ba47d40a002586c8ea1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae728149a4f59f935995e816655246855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#ae728149a4f59f935995e816655246855">SetFlagTopMassFixed</a> (bool flag)</td></tr>
 <tr class="separator:ae728149a4f59f935995e816655246855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17e543d199a38b8d21c78ad388f93d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab17e543d199a38b8d21c78ad388f93d3"></a>
@@ -946,6 +946,58 @@ An error code. </dd></dl>
 <p>Save resolution functions. </p>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#af4f07a210300f353dc15f7444640574d">KLFitter::LikelihoodBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc8c0c9ff843ba47d40a002586c8ea1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KLFitter::LikelihoodTopAllHadronic::SetET_miss_XY_SumET </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>etx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ety</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sumet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the values for the missing ET x and y components and the SumET. Reimplemented with dummy implementation to overwrite purely virtual function in base class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">etx</td><td>missing ET x component. </td></tr>
+    <tr><td class="paramname">ety</td><td>missing ET y component. </td></tr>
+    <tr><td class="paramname">sumet</td><td>total scalar ET. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An error flag. </dd></dl>
+
+<p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a73447165b779c9198d6e8439dbe9d5b7">KLFitter::LikelihoodBase</a>.</p>
 
 </div>
 </div>
