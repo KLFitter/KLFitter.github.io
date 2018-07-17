@@ -106,8 +106,10 @@ Inheritance diagram for KLFitter::LikelihoodTopLeptonJets:</div>
  <div class="center">
   <img src="class_k_l_fitter_1_1_likelihood_top_lepton_jets.png" usemap="#KLFitter::LikelihoodTopLeptonJets_map" alt=""/>
   <map id="KLFitter::LikelihoodTopLeptonJets_map" name="KLFitter::LikelihoodTopLeptonJets_map">
-<area href="class_k_l_fitter_1_1_likelihood_base.html" title="A base class for likelihoods. " alt="KLFitter::LikelihoodBase" shape="rect" coords="0,56,240,80"/>
-<area href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html" title="A class implementing a likelihood for the ttbar lepton+jets channel. " alt="KLFitter::LikelihoodTopLeptonJetsUDSep" shape="rect" coords="0,168,240,192"/>
+<area href="class_k_l_fitter_1_1_likelihood_base.html" title="A base class for likelihoods. " alt="KLFitter::LikelihoodBase" shape="rect" coords="274,56,538,80"/>
+<area href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___angular.html" title="Add brief description here. " alt="KLFitter::LikelihoodTopLeptonJets_Angular" shape="rect" coords="0,168,264,192"/>
+<area href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html" title="Add brief description here. " alt="KLFitter::LikelihoodTopLeptonJets_JetAngles" shape="rect" coords="274,168,538,192"/>
+<area href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html" title="A class implementing a likelihood for the ttbar lepton+jets channel. " alt="KLFitter::LikelihoodTopLeptonJetsUDSep" shape="rect" coords="548,168,812,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -127,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4269b512d10254a169ea5c8ecdd30bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dcffde51f5919eaa33a5ac37996e80f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a0dcffde51f5919eaa33a5ac37996e80f">GetInitialParameters</a> () override</td></tr>
 <tr class="separator:a0dcffde51f5919eaa33a5ac37996e80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad09ad56a397a2fe9b9d85e977a3f6483"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ad09ad56a397a2fe9b9d85e977a3f6483">GetInitialParametersWoNeutrinoPz</a> ()</td></tr>
+<tr class="memitem:ad09ad56a397a2fe9b9d85e977a3f6483"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ad09ad56a397a2fe9b9d85e977a3f6483">GetInitialParametersWoNeutrinoPz</a> ()</td></tr>
 <tr class="separator:ad09ad56a397a2fe9b9d85e977a3f6483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_k_l_fitter_1_1_likelihood_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_k_l_fitter_1_1_likelihood_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html">KLFitter::LikelihoodBase</a></td></tr>
 <tr class="memitem:a91f04ec0422e977b5f5969f7855c775d inherit pub_methods_class_k_l_fitter_1_1_likelihood_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a91f04ec0422e977b5f5969f7855c775d">LikelihoodBase</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> **particles=0)</td></tr>
@@ -229,7 +231,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ac7f026dbfadc17ac24a45922d6819bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077f5f9f5f80a11d01a81df223e5ed73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a077f5f9f5f80a11d01a81df223e5ed73">AdjustParameterRanges</a> () override</td></tr>
 <tr class="separator:a077f5f9f5f80a11d01a81df223e5ed73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae77aa147a7d6b1c784cb076a4b29a4e6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ae77aa147a7d6b1c784cb076a4b29a4e6">DefineModelParticles</a> () override</td></tr>
+<tr class="memitem:ae77aa147a7d6b1c784cb076a4b29a4e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ae77aa147a7d6b1c784cb076a4b29a4e6">DefineModelParticles</a> () override</td></tr>
 <tr class="separator:ae77aa147a7d6b1c784cb076a4b29a4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c966d43974e9f13e367ca332278e6c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a2c966d43974e9f13e367ca332278e6c5">RemoveInvariantParticlePermutations</a> () override</td></tr>
 <tr class="separator:a2c966d43974e9f13e367ca332278e6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -469,6 +471,30 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>nu_fit_py</b></td><
 <tr class="memitem:a007cf4af12426263655239ac0a3ae62d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a007cf4af12426263655239ac0a3ae62d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>nu_fit_pz</b></td></tr>
 <tr class="separator:a007cf4af12426263655239ac0a3ae62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab791f473a21fef40be3f2d43c7b0b302"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab791f473a21fef40be3f2d43c7b0b302"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wlep_fit_e</b></td></tr>
+<tr class="separator:ab791f473a21fef40be3f2d43c7b0b302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e75702fe4a9ee15528079454be8cf6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31e75702fe4a9ee15528079454be8cf6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wlep_fit_px</b></td></tr>
+<tr class="separator:a31e75702fe4a9ee15528079454be8cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ea890ce5f4667f7a17cf73cebe3232"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59ea890ce5f4667f7a17cf73cebe3232"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wlep_fit_py</b></td></tr>
+<tr class="separator:a59ea890ce5f4667f7a17cf73cebe3232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b559ed9374a7ff41cca46b63ea5bf04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b559ed9374a7ff41cca46b63ea5bf04"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>wlep_fit_pz</b></td></tr>
+<tr class="separator:a2b559ed9374a7ff41cca46b63ea5bf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c9819fe8fa6324cda61efacc57f2fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5c9819fe8fa6324cda61efacc57f2fc"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>whad_fit_e</b></td></tr>
+<tr class="separator:ab5c9819fe8fa6324cda61efacc57f2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08a5c1cfa81ab2839f9c9cffc99dc3b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08a5c1cfa81ab2839f9c9cffc99dc3b9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>whad_fit_px</b></td></tr>
+<tr class="separator:a08a5c1cfa81ab2839f9c9cffc99dc3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413056d45384f4b48847e77b1713b495"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a413056d45384f4b48847e77b1713b495"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>whad_fit_py</b></td></tr>
+<tr class="separator:a413056d45384f4b48847e77b1713b495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f6f9883fcd12fe533e3c7982249e38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93f6f9883fcd12fe533e3c7982249e38"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>whad_fit_pz</b></td></tr>
+<tr class="separator:a93f6f9883fcd12fe533e3c7982249e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22e7153cdd1cd251f1cd408b074c42e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae22e7153cdd1cd251f1cd408b074c42e"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>whad_fit_m</b></td></tr>
 <tr class="separator:ae22e7153cdd1cd251f1cd408b074c42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -669,6 +695,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a22695de1d17e66e0ec724bb976565ea9">KLFitter::LikelihoodBase</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a6a205e6d9b332487f7af08a093d401e9">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___angular.html#a79fbbc352bd15708e02ed4aaf7dd554b">KLFitter::LikelihoodTopLeptonJets_Angular</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a0032a08e9f6423b3862b269d5850c66a"></a>
@@ -723,6 +751,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>An error flag. </dd></dl>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a0f8d9e91bfe553ac1032568c06177cec">KLFitter::LikelihoodBase</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#abf37bb45bc713c68655b084db9d5fe13">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>.</p>
 
 </div>
 </div>
@@ -811,7 +841,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afd90deb65789c3393e95b3a9df90b14a">KLFitter::LikelihoodBase</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a9a39e7dcf3ad7282acfc6fa731b678db">KLFitter::LikelihoodTopLeptonJetsUDSep</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a9a39e7dcf3ad7282acfc6fa731b678db">KLFitter::LikelihoodTopLeptonJetsUDSep</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#ad7036f083ed4911fe3303092152ff89b">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>.</p>
 
 </div>
 </div>
@@ -845,6 +875,9 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="ad09ad56a397a2fe9b9d85e977a3f6483"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; double &gt; KLFitter::LikelihoodTopLeptonJets::GetInitialParametersWoNeutrinoPz </td>
@@ -853,9 +886,16 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Get initial values for the parameters with a dummy of "0.0" for the neutrino pz. The decision on the initial value for the neutrino pz then needs to be done in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a0dcffde51f5919eaa33a5ac37996e80f">GetInitialParameters()</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>vector of initial values. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#aee9587b13a9f8c7cd8d01334a236fa5e">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>.</p>
 
 </div>
 </div>
@@ -916,6 +956,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a09725bf96cef14aaf895cff88d933c11">KLFitter::LikelihoodBase</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a73da9fcdc554885b54a37655123b97cd">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___angular.html#a87c5d083153e4d571e4c59d8d9b143e8">KLFitter::LikelihoodTopLeptonJets_Angular</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4269b512d10254a169ea5c8ecdd30bc5"></a>
@@ -949,6 +991,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A vector with the components of the logarithm of the prior probability. Its components are: 0: TF_bhad 1: TF_blep 2: TF_lq1 3: TF_lq2 4: TF_lep 5: TF_METx 6: TF_METy 7: BW_Whad 8: BW_Wlep 9: BW_Thad 10: BW_Tlep </dd></dl>
 
 <p>Implements <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a2a885f2edda21e18bd2d7fc013d8a099">KLFitter::LikelihoodBase</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a8e7e454a6ab129ba4fb33232ee119a10">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>.</p>
 
 </div>
 </div>
