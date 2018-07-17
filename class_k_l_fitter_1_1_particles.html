@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,6 +113,7 @@ Public Types</h2></td></tr>
 <b>kPhoton</b>
 <br/>
  }</td></tr>
+<tr class="memdesc:a24064667e3bb3d6b61e774bc195a675d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An enumerator for the particle types. <br/></td></tr>
 <tr class="separator:a24064667e3bb3d6b61e774bc195a675d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794f7bfbff6414f234a7b0ab3374c3d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> { <br/>
 &#160;&#160;<b>kLight</b>, 
@@ -123,73 +124,109 @@ Public Types</h2></td></tr>
 &#160;&#160;<b>kNone</b>
 <br/>
  }</td></tr>
+<tr class="memdesc:a794f7bfbff6414f234a7b0ab3374c3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">An enumerator for the true jet flavor. <br/></td></tr>
 <tr class="separator:a794f7bfbff6414f234a7b0ab3374c3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors and destructors</div></td></tr>
-<tr class="memitem:a25003ac81c803600851bb8f419282fe2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a25003ac81c803600851bb8f419282fe2">Particles</a> ()</td></tr>
+<tr class="memitem:a25003ac81c803600851bb8f419282fe2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25003ac81c803600851bb8f419282fe2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a25003ac81c803600851bb8f419282fe2">Particles</a> ()</td></tr>
+<tr class="memdesc:a25003ac81c803600851bb8f419282fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor. <br/></td></tr>
 <tr class="separator:a25003ac81c803600851bb8f419282fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b0acb5b699ca285d7f52939a96cf725"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9b0acb5b699ca285d7f52939a96cf725">Particles</a> (const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;o)</td></tr>
+<tr class="memitem:a9b0acb5b699ca285d7f52939a96cf725"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b0acb5b699ca285d7f52939a96cf725"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9b0acb5b699ca285d7f52939a96cf725">Particles</a> (const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;o)</td></tr>
+<tr class="memdesc:a9b0acb5b699ca285d7f52939a96cf725"><td class="mdescLeft">&#160;</td><td class="mdescRight">The copy constructor. <br/></td></tr>
 <tr class="separator:a9b0acb5b699ca285d7f52939a96cf725"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff97e0cc069a26e67875aea5b5d02a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#afff97e0cc069a26e67875aea5b5d02a0">~Particles</a> ()</td></tr>
+<tr class="memitem:afff97e0cc069a26e67875aea5b5d02a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff97e0cc069a26e67875aea5b5d02a0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#afff97e0cc069a26e67875aea5b5d02a0">~Particles</a> ()</td></tr>
+<tr class="memdesc:afff97e0cc069a26e67875aea5b5d02a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The (defaulted) destructor. <br/></td></tr>
 <tr class="separator:afff97e0cc069a26e67875aea5b5d02a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58755743386a25e3c8297776fd0e45b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a58755743386a25e3c8297776fd0e45b7">operator=</a> (const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;o)</td></tr>
+<tr class="memitem:a58755743386a25e3c8297776fd0e45b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58755743386a25e3c8297776fd0e45b7"></a>
+<a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a58755743386a25e3c8297776fd0e45b7">operator=</a> (const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;o)</td></tr>
+<tr class="memdesc:a58755743386a25e3c8297776fd0e45b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The assignment operator. <br/></td></tr>
 <tr class="separator:a58755743386a25e3c8297776fd0e45b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Get)</div></td></tr>
 <tr class="memitem:aa05af7926f75b9efec305b9c919477d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aa05af7926f75b9efec305b9c919477d3">NPartons</a> ()</td></tr>
+<tr class="memdesc:aa05af7926f75b9efec305b9c919477d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of partons.  <a href="#aa05af7926f75b9efec305b9c919477d3">More...</a><br/></td></tr>
 <tr class="separator:aa05af7926f75b9efec305b9c919477d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51a26e38a2089b98030af95a157e798f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a51a26e38a2089b98030af95a157e798f">NElectrons</a> ()</td></tr>
+<tr class="memdesc:a51a26e38a2089b98030af95a157e798f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of electrons.  <a href="#a51a26e38a2089b98030af95a157e798f">More...</a><br/></td></tr>
 <tr class="separator:a51a26e38a2089b98030af95a157e798f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bf113fede6a6bf81896b02f2ef75a5c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9bf113fede6a6bf81896b02f2ef75a5c">NMuons</a> ()</td></tr>
+<tr class="memdesc:a9bf113fede6a6bf81896b02f2ef75a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of muons.  <a href="#a9bf113fede6a6bf81896b02f2ef75a5c">More...</a><br/></td></tr>
 <tr class="separator:a9bf113fede6a6bf81896b02f2ef75a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af409bed916ec878d222f4a7bbada080f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#af409bed916ec878d222f4a7bbada080f">NTaus</a> ()</td></tr>
+<tr class="memdesc:af409bed916ec878d222f4a7bbada080f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of taus.  <a href="#af409bed916ec878d222f4a7bbada080f">More...</a><br/></td></tr>
 <tr class="separator:af409bed916ec878d222f4a7bbada080f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9706dcd3d159c0ccc36b767c31953f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#ab9706dcd3d159c0ccc36b767c31953f8">NNeutrinos</a> ()</td></tr>
+<tr class="memdesc:ab9706dcd3d159c0ccc36b767c31953f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of neutrinos.  <a href="#ab9706dcd3d159c0ccc36b767c31953f8">More...</a><br/></td></tr>
 <tr class="separator:ab9706dcd3d159c0ccc36b767c31953f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3a702ff4dfe0c58a0f56563256b814e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aa3a702ff4dfe0c58a0f56563256b814e">NBosons</a> ()</td></tr>
+<tr class="memdesc:aa3a702ff4dfe0c58a0f56563256b814e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bosons.  <a href="#aa3a702ff4dfe0c58a0f56563256b814e">More...</a><br/></td></tr>
 <tr class="separator:aa3a702ff4dfe0c58a0f56563256b814e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7567ade9f5d09a52970f386aaa405dc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7567ade9f5d09a52970f386aaa405dc0">NPhotons</a> ()</td></tr>
+<tr class="memdesc:a7567ade9f5d09a52970f386aaa405dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of photons.  <a href="#a7567ade9f5d09a52970f386aaa405dc0">More...</a><br/></td></tr>
 <tr class="separator:a7567ade9f5d09a52970f386aaa405dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b69684da443d9d7538bda58578f736"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a97b69684da443d9d7538bda58578f736">Particle</a> (std::string name)</td></tr>
+<tr class="memdesc:a97b69684da443d9d7538bda58578f736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle with a certain name.  <a href="#a97b69684da443d9d7538bda58578f736">More...</a><br/></td></tr>
 <tr class="separator:a97b69684da443d9d7538bda58578f736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d14a858fa712200161d022da25ae357"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9d14a858fa712200161d022da25ae357">Particle</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a9d14a858fa712200161d022da25ae357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a particle with some index and type.  <a href="#a9d14a858fa712200161d022da25ae357">More...</a><br/></td></tr>
 <tr class="separator:a9d14a858fa712200161d022da25ae357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa58b750aa55d5b0bacfd87fca082e81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aaa58b750aa55d5b0bacfd87fca082e81">FindParticle</a> (std::string name, TLorentzVector *&amp;particle, int *index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> *ptype)</td></tr>
+<tr class="memdesc:aaa58b750aa55d5b0bacfd87fca082e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a particle by name.  <a href="#aaa58b750aa55d5b0bacfd87fca082e81">More...</a><br/></td></tr>
 <tr class="separator:aaa58b750aa55d5b0bacfd87fca082e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0a3f9e32fdf611f56893aae26b5026"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aad0a3f9e32fdf611f56893aae26b5026">Parton</a> (int index)</td></tr>
+<tr class="memdesc:aad0a3f9e32fdf611f56893aae26b5026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the parton at some index.  <a href="#aad0a3f9e32fdf611f56893aae26b5026">More...</a><br/></td></tr>
 <tr class="separator:aad0a3f9e32fdf611f56893aae26b5026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb00f6aa39a23d6a1d0eab296dcb6be7"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#adb00f6aa39a23d6a1d0eab296dcb6be7">Electron</a> (int index)</td></tr>
+<tr class="memdesc:adb00f6aa39a23d6a1d0eab296dcb6be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the electron at some index.  <a href="#adb00f6aa39a23d6a1d0eab296dcb6be7">More...</a><br/></td></tr>
 <tr class="separator:adb00f6aa39a23d6a1d0eab296dcb6be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878486e806b5d50f61458e740cab00eb"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a878486e806b5d50f61458e740cab00eb">Muon</a> (int index)</td></tr>
+<tr class="memdesc:a878486e806b5d50f61458e740cab00eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the muon at some index.  <a href="#a878486e806b5d50f61458e740cab00eb">More...</a><br/></td></tr>
 <tr class="separator:a878486e806b5d50f61458e740cab00eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d57acc2a29045c0d49e4327b4bed9d0"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a6d57acc2a29045c0d49e4327b4bed9d0">Tau</a> (int index)</td></tr>
+<tr class="memdesc:a6d57acc2a29045c0d49e4327b4bed9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the tau at some index.  <a href="#a6d57acc2a29045c0d49e4327b4bed9d0">More...</a><br/></td></tr>
 <tr class="separator:a6d57acc2a29045c0d49e4327b4bed9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82e5cccef5a9576e0b9ed20c8f2784a0"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a82e5cccef5a9576e0b9ed20c8f2784a0">Boson</a> (int index)</td></tr>
+<tr class="memdesc:a82e5cccef5a9576e0b9ed20c8f2784a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the boson at some index.  <a href="#a82e5cccef5a9576e0b9ed20c8f2784a0">More...</a><br/></td></tr>
 <tr class="separator:a82e5cccef5a9576e0b9ed20c8f2784a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da4d631cdb1c064810a716558d80985"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7da4d631cdb1c064810a716558d80985">Neutrino</a> (int index)</td></tr>
+<tr class="memdesc:a7da4d631cdb1c064810a716558d80985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the neutrino at some index.  <a href="#a7da4d631cdb1c064810a716558d80985">More...</a><br/></td></tr>
 <tr class="separator:a7da4d631cdb1c064810a716558d80985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a1844695f0df8d4599b8d4aa4ee4ee238">Photon</a> (int index)</td></tr>
+<tr class="memdesc:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the photon at some index.  <a href="#a1844695f0df8d4599b8d4aa4ee4ee238">More...</a><br/></td></tr>
 <tr class="separator:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827d1b0a49dbcf7fd7a2673d68923fd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a827d1b0a49dbcf7fd7a2673d68923fd8">NParticles</a> ()</td></tr>
+<tr class="memdesc:a827d1b0a49dbcf7fd7a2673d68923fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of particles.  <a href="#a827d1b0a49dbcf7fd7a2673d68923fd8">More...</a><br/></td></tr>
 <tr class="separator:a827d1b0a49dbcf7fd7a2673d68923fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3fc07d17ce5528d49c37d0b0159927d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#ab3fc07d17ce5528d49c37d0b0159927d">NParticles</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:ab3fc07d17ce5528d49c37d0b0159927d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of particles of a certain type.  <a href="#ab3fc07d17ce5528d49c37d0b0159927d">More...</a><br/></td></tr>
 <tr class="separator:ab3fc07d17ce5528d49c37d0b0159927d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed0ebb547d53e2e1a2b4cada41d3e32"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a3ed0ebb547d53e2e1a2b4cada41d3e32">NameParticle</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a3ed0ebb547d53e2e1a2b4cada41d3e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a particle.  <a href="#a3ed0ebb547d53e2e1a2b4cada41d3e32">More...</a><br/></td></tr>
 <tr class="separator:a3ed0ebb547d53e2e1a2b4cada41d3e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3336dbc1f6d29d1229d498e59222bc5f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a3336dbc1f6d29d1229d498e59222bc5f">NameElectron</a> (int index)</td></tr>
+<tr class="memdesc:a3336dbc1f6d29d1229d498e59222bc5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a electron.  <a href="#a3336dbc1f6d29d1229d498e59222bc5f">More...</a><br/></td></tr>
 <tr class="separator:a3336dbc1f6d29d1229d498e59222bc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d13a52ebb637a15c436f503fb0d14e3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a6d13a52ebb637a15c436f503fb0d14e3">NameMuon</a> (int index)</td></tr>
+<tr class="memdesc:a6d13a52ebb637a15c436f503fb0d14e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a muon.  <a href="#a6d13a52ebb637a15c436f503fb0d14e3">More...</a><br/></td></tr>
 <tr class="separator:a6d13a52ebb637a15c436f503fb0d14e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60494a1b97d9ae82cd29f2e5e89d09f0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a60494a1b97d9ae82cd29f2e5e89d09f0">NameTau</a> (int index)</td></tr>
+<tr class="memdesc:a60494a1b97d9ae82cd29f2e5e89d09f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a tau.  <a href="#a60494a1b97d9ae82cd29f2e5e89d09f0">More...</a><br/></td></tr>
 <tr class="separator:a60494a1b97d9ae82cd29f2e5e89d09f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7613ef784696fad2fac702c679329131"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7613ef784696fad2fac702c679329131">NameBoson</a> (int index)</td></tr>
+<tr class="memdesc:a7613ef784696fad2fac702c679329131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a boson.  <a href="#a7613ef784696fad2fac702c679329131">More...</a><br/></td></tr>
 <tr class="separator:a7613ef784696fad2fac702c679329131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a113c4233aa42db1dc4245f540b7ffc5a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a113c4233aa42db1dc4245f540b7ffc5a">NameNeutrino</a> (int index)</td></tr>
+<tr class="memdesc:a113c4233aa42db1dc4245f540b7ffc5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a neutrino.  <a href="#a113c4233aa42db1dc4245f540b7ffc5a">More...</a><br/></td></tr>
 <tr class="separator:a113c4233aa42db1dc4245f540b7ffc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97c51e5fc0630ad2e40f381eecd93940"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a97c51e5fc0630ad2e40f381eecd93940">NamePhoton</a> (int index)</td></tr>
+<tr class="memdesc:a97c51e5fc0630ad2e40f381eecd93940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of a photon.  <a href="#a97c51e5fc0630ad2e40f381eecd93940">More...</a><br/></td></tr>
 <tr class="separator:a97c51e5fc0630ad2e40f381eecd93940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa9b4e2c9acc6626a72067fc5a33ce65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#afa9b4e2c9acc6626a72067fc5a33ce65">JetIndex</a> (int index)</td></tr>
+<tr class="memdesc:afa9b4e2c9acc6626a72067fc5a33ce65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the corresponding measured particle.  <a href="#afa9b4e2c9acc6626a72067fc5a33ce65">More...</a><br/></td></tr>
 <tr class="separator:afa9b4e2c9acc6626a72067fc5a33ce65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a592852c614c54735bfe1f5189385464f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a592852c614c54735bfe1f5189385464f"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>ElectronIndex</b> (int index)</td></tr>
@@ -201,168 +238,95 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>MuonIndex</b> (int ind
 int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int index)</td></tr>
 <tr class="separator:a79c316679988cb0bef191bf7e932e2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76ca54937603bb46c05f55c553415c3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a76ca54937603bb46c05f55c553415c3a">TrueFlavor</a> (int index)</td></tr>
+<tr class="memdesc:a76ca54937603bb46c05f55c553415c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true flavor of a parton.  <a href="#a76ca54937603bb46c05f55c553415c3a">More...</a><br/></td></tr>
 <tr class="separator:a76ca54937603bb46c05f55c553415c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f969137994f6ff934f9d228d31b9a92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a0f969137994f6ff934f9d228d31b9a92">IsBTagged</a> (int index)</td></tr>
+<tr class="memdesc:a0f969137994f6ff934f9d228d31b9a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return has the jet been b-tagged?  <a href="#a0f969137994f6ff934f9d228d31b9a92">More...</a><br/></td></tr>
 <tr class="separator:a0f969137994f6ff934f9d228d31b9a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc39e5d7527e52a369503c910e63763b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#acc39e5d7527e52a369503c910e63763b">BTaggingEfficiency</a> (int index)</td></tr>
+<tr class="memdesc:acc39e5d7527e52a369503c910e63763b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the jet b-tagging efficiency.  <a href="#acc39e5d7527e52a369503c910e63763b">More...</a><br/></td></tr>
 <tr class="separator:acc39e5d7527e52a369503c910e63763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa28d3575e39faf1038206b01869b1e3c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aa28d3575e39faf1038206b01869b1e3c">BTaggingRejection</a> (int index)</td></tr>
+<tr class="memdesc:aa28d3575e39faf1038206b01869b1e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the jet b-tagging rejection.  <a href="#aa28d3575e39faf1038206b01869b1e3c">More...</a><br/></td></tr>
 <tr class="separator:aa28d3575e39faf1038206b01869b1e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63ad7c5ef6283392c8bc7bd9ec6b250a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a63ad7c5ef6283392c8bc7bd9ec6b250a">BTagWeight</a> (int index)</td></tr>
+<tr class="memdesc:a63ad7c5ef6283392c8bc7bd9ec6b250a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the jet b-tagging weight.  <a href="#a63ad7c5ef6283392c8bc7bd9ec6b250a">More...</a><br/></td></tr>
 <tr class="separator:a63ad7c5ef6283392c8bc7bd9ec6b250a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86bec8c3cb43fa8e177d8a416e4a6b85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a86bec8c3cb43fa8e177d8a416e4a6b85">BTagWeightSet</a> (int index)</td></tr>
+<tr class="memdesc:a86bec8c3cb43fa8e177d8a416e4a6b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bool of a set tagging weight.  <a href="#a86bec8c3cb43fa8e177d8a416e4a6b85">More...</a><br/></td></tr>
 <tr class="separator:a86bec8c3cb43fa8e177d8a416e4a6b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a521087b17cc043733010aaf83b9e3081"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081">DetEta</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a521087b17cc043733010aaf83b9e3081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the detector eta of a particle with some index and type.  <a href="#a521087b17cc043733010aaf83b9e3081">More...</a><br/></td></tr>
 <tr class="separator:a521087b17cc043733010aaf83b9e3081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe5837280fadac5a776d6f6d78d6b9cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#abe5837280fadac5a776d6f6d78d6b9cc">LeptonCharge</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:abe5837280fadac5a776d6f6d78d6b9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the charge of the lepton with some index and type.  <a href="#abe5837280fadac5a776d6f6d78d6b9cc">More...</a><br/></td></tr>
 <tr class="separator:abe5837280fadac5a776d6f6d78d6b9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aa1516e6a25f1d3d7c00df614a350b6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9aa1516e6a25f1d3d7c00df614a350b6">NBTags</a> ()</td></tr>
+<tr class="memitem:a9aa1516e6a25f1d3d7c00df614a350b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9aa1516e6a25f1d3d7c00df614a350b6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9aa1516e6a25f1d3d7c00df614a350b6">NBTags</a> ()</td></tr>
+<tr class="memdesc:a9aa1516e6a25f1d3d7c00df614a350b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of b-tags. <br/></td></tr>
 <tr class="separator:a9aa1516e6a25f1d3d7c00df614a350b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
 <tr class="memitem:a7757a8349d8b2be43fa64e457f101de9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7757a8349d8b2be43fa64e457f101de9">SetIsBTagged</a> (int index, bool isBTagged)</td></tr>
+<tr class="memdesc:a7757a8349d8b2be43fa64e457f101de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set has the jet been b-tagged?  <a href="#a7757a8349d8b2be43fa64e457f101de9">More...</a><br/></td></tr>
 <tr class="separator:a7757a8349d8b2be43fa64e457f101de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81844333302e90946a3da036a3b6188d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a81844333302e90946a3da036a3b6188d">SetBTaggingEfficiency</a> (int index, double btagEff)</td></tr>
+<tr class="memdesc:a81844333302e90946a3da036a3b6188d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the jet b-tagging efficiency.  <a href="#a81844333302e90946a3da036a3b6188d">More...</a><br/></td></tr>
 <tr class="separator:a81844333302e90946a3da036a3b6188d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace442b2c1e377a2394181678f288448c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#ace442b2c1e377a2394181678f288448c">SetBTaggingRejection</a> (int index, double btagRej)</td></tr>
+<tr class="memdesc:ace442b2c1e377a2394181678f288448c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the jet b-tagging rejection.  <a href="#ace442b2c1e377a2394181678f288448c">More...</a><br/></td></tr>
 <tr class="separator:ace442b2c1e377a2394181678f288448c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9007d211415a83638d5c61a051a970e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9007d211415a83638d5c61a051a970e9">SetBTagWeight</a> (int index, double btagweight)</td></tr>
+<tr class="memdesc:a9007d211415a83638d5c61a051a970e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the jet b-tagging weight.  <a href="#a9007d211415a83638d5c61a051a970e9">More...</a><br/></td></tr>
 <tr class="separator:a9007d211415a83638d5c61a051a970e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade5be3729b861b045ec1605d7e52a4e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#ade5be3729b861b045ec1605d7e52a4e2">SetBTagWeightSet</a> (int index, bool btagweightset)</td></tr>
+<tr class="memdesc:ade5be3729b861b045ec1605d7e52a4e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set bool for set jet b-tagging weight.  <a href="#ade5be3729b861b045ec1605d7e52a4e2">More...</a><br/></td></tr>
 <tr class="separator:ade5be3729b861b045ec1605d7e52a4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (misc)</div></td></tr>
 <tr class="memitem:ad8776184b097d020bca45fd8a912ac8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#ad8776184b097d020bca45fd8a912ac8c">AddParticle</a> (const TLorentzVector &amp;particle, double <a class="el" href="class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081">DetEta</a>, float LepCharge, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1)</td></tr>
+<tr class="memdesc:ad8776184b097d020bca45fd8a912ac8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a particle to a list of particles.  <a href="#ad8776184b097d020bca45fd8a912ac8c">More...</a><br/></td></tr>
 <tr class="separator:ad8776184b097d020bca45fd8a912ac8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69e91fd6d794d01963cd1890af2adac3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a69e91fd6d794d01963cd1890af2adac3">AddParticle</a> (const TLorentzVector *const particle, double <a class="el" href="class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081">DetEta</a>, float LepCharge, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1)</td></tr>
+<tr class="memdesc:a69e91fd6d794d01963cd1890af2adac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED FUNCTION.  <a href="#a69e91fd6d794d01963cd1890af2adac3">More...</a><br/></td></tr>
 <tr class="separator:a69e91fd6d794d01963cd1890af2adac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba125d9de5a8dafc8cb557cf13d98af6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#aba125d9de5a8dafc8cb557cf13d98af6">AddParticle</a> (const TLorentzVector &amp;particle, double <a class="el" href="class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081">DetEta</a>, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1, bool isBtagged=false, double bTagEff=-1., double bTagRej=-1., <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav=kNone, double btagweight=999)</td></tr>
+<tr class="memdesc:aba125d9de5a8dafc8cb557cf13d98af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a particle to a list of particles.  <a href="#aba125d9de5a8dafc8cb557cf13d98af6">More...</a><br/></td></tr>
 <tr class="separator:aba125d9de5a8dafc8cb557cf13d98af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0b401d97f3663e408f0edc3f9f50e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7b0b401d97f3663e408f0edc3f9f50e2">AddParticle</a> (const TLorentzVector *const particle, double <a class="el" href="class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081">DetEta</a>, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1, bool isBtagged=false, double bTagEff=-1., double bTagRej=-1., <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav=kNone, double btagweight=999)</td></tr>
+<tr class="memdesc:a7b0b401d97f3663e408f0edc3f9f50e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED FUNCTION.  <a href="#a7b0b401d97f3663e408f0edc3f9f50e2">More...</a><br/></td></tr>
 <tr class="separator:a7b0b401d97f3663e408f0edc3f9f50e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f515a000ab68b2857be36d8233a7b1a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a6f515a000ab68b2857be36d8233a7b1a">AddParticle</a> (const TLorentzVector &amp;particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1, bool isBtagged=false, double bTagEff=-1., double bTagRej=-1., <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav=kNone, double btagweight=999)</td></tr>
+<tr class="memdesc:a6f515a000ab68b2857be36d8233a7b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a particle to a list of particles.  <a href="#a6f515a000ab68b2857be36d8233a7b1a">More...</a><br/></td></tr>
 <tr class="separator:a6f515a000ab68b2857be36d8233a7b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65110d557479e8f8f299ea1b889a25f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a65110d557479e8f8f299ea1b889a25f3">AddParticle</a> (const TLorentzVector *const particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1, bool isBtagged=false, double bTagEff=-1., double bTagRej=-1., <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav=kNone, double btagweight=999)</td></tr>
+<tr class="memdesc:a65110d557479e8f8f299ea1b889a25f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED FUNCTION.  <a href="#a65110d557479e8f8f299ea1b889a25f3">More...</a><br/></td></tr>
 <tr class="separator:a65110d557479e8f8f299ea1b889a25f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a691db8a432f84e1f82db9ab93981d1b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a691db8a432f84e1f82db9ab93981d1b1">AddParticle</a> (const TLorentzVector &amp;particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name, int measuredindex, <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav, double btagweight=999)</td></tr>
+<tr class="memdesc:a691db8a432f84e1f82db9ab93981d1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a particle to a list of particles (especially for model particles).  <a href="#a691db8a432f84e1f82db9ab93981d1b1">More...</a><br/></td></tr>
 <tr class="separator:a691db8a432f84e1f82db9ab93981d1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9ff79e370e7d854f71ead1446ce6bfbb">AddParticle</a> (const TLorentzVector *const particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name, int measuredindex, <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav, double btagweight=999)</td></tr>
+<tr class="memdesc:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED FUNCTION.  <a href="#a9ff79e370e7d854f71ead1446ce6bfbb">More...</a><br/></td></tr>
 <tr class="separator:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7987e2d7b437abdbc6dca57f914e17f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7987e2d7b437abdbc6dca57f914e17f9">RemoveParticle</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a7987e2d7b437abdbc6dca57f914e17f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a particle from a list of particles.  <a href="#a7987e2d7b437abdbc6dca57f914e17f9">More...</a><br/></td></tr>
 <tr class="separator:a7987e2d7b437abdbc6dca57f914e17f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45dcb21faf24fe5327b047b8cfc60bec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a45dcb21faf24fe5327b047b8cfc60bec">RemoveParticle</a> (std::string name)</td></tr>
+<tr class="memdesc:a45dcb21faf24fe5327b047b8cfc60bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a particle from a list of particles.  <a href="#a45dcb21faf24fe5327b047b8cfc60bec">More...</a><br/></td></tr>
 <tr class="separator:a45dcb21faf24fe5327b047b8cfc60bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f527565eae7832cb642f7cb79792c84"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr<br class="typebreak"/>
 &lt; TLorentzVector &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7f527565eae7832cb642f7cb79792c84">ParticleContainer</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a7f527565eae7832cb642f7cb79792c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle container of a type of particles.  <a href="#a7f527565eae7832cb642f7cb79792c84">More...</a><br/></td></tr>
 <tr class="separator:a7f527565eae7832cb642f7cb79792c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c63d5d4a577842dec37b6f51ac08071"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9c63d5d4a577842dec37b6f51ac08071">ParticleNameContainer</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
+<tr class="memdesc:a9c63d5d4a577842dec37b6f51ac08071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle name container of a type of particles.  <a href="#a9c63d5d4a577842dec37b6f51ac08071">More...</a><br/></td></tr>
 <tr class="separator:a9c63d5d4a577842dec37b6f51ac08071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3a16bd5ed49c17d72b46873befb739"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7a3a16bd5ed49c17d72b46873befb739">CheckIndex</a> (std::vector&lt; std::unique_ptr&lt; TLorentzVector &gt; &gt; *container, int index)</td></tr>
+<tr class="memdesc:a7a3a16bd5ed49c17d72b46873befb739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the index is within range.  <a href="#a7a3a16bd5ed49c17d72b46873befb739">More...</a><br/></td></tr>
 <tr class="separator:a7a3a16bd5ed49c17d72b46873befb739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class describing particles. </p>
 <p>This class contains sets of TLorentzVectors for quarks, leptons, etc. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a24064667e3bb3d6b61e774bc195a675d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>An enumerator for the particle types </p>
-
-</div>
-</div>
-<a class="anchor" id="a794f7bfbff6414f234a7b0ab3374c3d6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">KLFitter::Particles::TrueFlavorType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>An enumerator for the true jet flavor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a25003ac81c803600851bb8f419282fe2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">KLFitter::Particles::Particles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The default constructor. </p>
-
-</div>
-</div>
-<a class="anchor" id="a9b0acb5b699ca285d7f52939a96cf725"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">KLFitter::Particles::Particles </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The copy constructor. </p>
-
-</div>
-</div>
-<a class="anchor" id="afff97e0cc069a26e67875aea5b5d02a0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">KLFitter::Particles::~Particles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The (defaulted) destructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ad8776184b097d020bca45fd8a912ac8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -410,6 +374,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Add a particle to a list of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -473,7 +438,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DEPRECATED FUNCTION. This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
+
+<p>DEPRECATED FUNCTION. </p>
+<p>This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
 
 </div>
 </div>
@@ -548,6 +515,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Add a particle to a list of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -639,7 +607,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DEPRECATED FUNCTION. This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
+
+<p>DEPRECATED FUNCTION. </p>
+<p>This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
 
 </div>
 </div>
@@ -708,6 +678,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Add a particle to a list of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -792,7 +763,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DEPRECATED FUNCTION. This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
+
+<p>DEPRECATED FUNCTION. </p>
+<p>This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
 
 </div>
 </div>
@@ -843,6 +816,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Add a particle to a list of particles (especially for model particles). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -906,7 +880,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DEPRECATED FUNCTION. This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
+
+<p>DEPRECATED FUNCTION. </p>
+<p>This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
 
 </div>
 </div>
@@ -923,6 +899,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the boson at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -955,6 +932,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the jet b-tagging efficiency. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -987,6 +965,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the jet b-tagging rejection. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1019,6 +998,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the jet b-tagging weight. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1051,6 +1031,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the bool of a set tagging weight. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1085,6 +1066,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Checks if the index is within range. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1120,6 +1102,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the detector eta of a particle with some index and type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1145,6 +1128,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the electron at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1191,6 +1175,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Find a particle by name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1226,6 +1211,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return has the jet been b-tagged? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1250,6 +1236,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the corresponding measured particle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1284,6 +1271,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the charge of the lepton with some index and type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1309,6 +1297,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the muon at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1333,6 +1322,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a boson. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1357,6 +1347,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a electron. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1381,6 +1372,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a muon. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1405,6 +1397,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a neutrino. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1439,6 +1432,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a particle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1464,6 +1458,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a photon. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1488,6 +1483,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the name of a tau. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1519,24 +1515,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of bosons. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of bosons. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a9aa1516e6a25f1d3d7c00df614a350b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::Particles::NBTags </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Return the number of b-tags. </p>
 
 </div>
 </div>
@@ -1560,6 +1541,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of electrons. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of electrons. </dd></dl>
 
@@ -1578,6 +1560,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the neutrino at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1609,6 +1592,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of muons. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of muons. </dd></dl>
 
@@ -1634,6 +1618,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of neutrinos. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of neutrinos. </dd></dl>
 
@@ -1659,6 +1644,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of particles. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of particles. </dd></dl>
 
@@ -1677,6 +1663,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the number of particles of a certain type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1708,6 +1695,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of partons. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of partons. </dd></dl>
 
@@ -1733,6 +1721,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of photons. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of photons. </dd></dl>
 
@@ -1758,25 +1747,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the number of taus. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of taus. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a58755743386a25e3c8297776fd0e45b7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_k_l_fitter_1_1_particles.html">KLFitter::Particles</a> &amp; KLFitter::Particles::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_k_l_fitter_1_1_particles.html">Particles</a> &amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The assignment operator. </p>
 
 </div>
 </div>
@@ -1793,7 +1766,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the particle with a certain name </p>
+
+<p>Return the particle with a certain name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the particle. </td></tr>
@@ -1827,6 +1801,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return a particle with some index and type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1852,7 +1827,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the particle container of a type of particles </p>
+
+<p>Return the particle container of a type of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ptype</td><td>The type of the particle. </td></tr>
@@ -1876,7 +1852,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the particle name container of a type of particles </p>
+
+<p>Return the particle name container of a type of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ptype</td><td>The type of the particle. </td></tr>
@@ -1900,6 +1877,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the parton at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1924,6 +1902,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the photon at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1958,6 +1937,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Removes a particle from a list of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1983,6 +1963,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Removes a particle from a list of particles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2017,6 +1998,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set the jet b-tagging efficiency. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2052,6 +2034,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set the jet b-tagging rejection. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2087,6 +2070,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set the jet b-tagging weight. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2122,6 +2106,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set bool for set jet b-tagging weight. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2157,6 +2142,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set has the jet been b-tagged? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2182,6 +2168,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return the tau at some index. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2214,6 +2201,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonIndex</b> (int i
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the true flavor of a parton. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

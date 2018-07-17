@@ -12,7 +12,8 @@ var indexSectionsWithContent =
   2: "k",
   3: "abcdefgijlmnoprstu~",
   4: "bdefhlmns",
-  5: "bcklpt"
+  5: "bcklpt",
+  6: "kp"
 };
 
 var indexSectionNames =
@@ -22,7 +23,8 @@ var indexSectionNames =
   2: "namespaces",
   3: "functions",
   4: "variables",
-  5: "enums"
+  5: "enums",
+  6: "enumvalues"
 };
 
 function convertToId(search)

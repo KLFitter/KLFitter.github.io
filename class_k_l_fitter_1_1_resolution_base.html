@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -123,36 +123,52 @@ Inheritance diagram for KLFitter::ResolutionBase:</div>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors and destructors</div></td></tr>
 <tr class="memitem:a542e2d7269e41878f9e20cfcf9d9bda6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a542e2d7269e41878f9e20cfcf9d9bda6">ResolutionBase</a> (int npar)</td></tr>
+<tr class="memdesc:a542e2d7269e41878f9e20cfcf9d9bda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="#a542e2d7269e41878f9e20cfcf9d9bda6">More...</a><br/></td></tr>
 <tr class="separator:a542e2d7269e41878f9e20cfcf9d9bda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1d5bb132848c975efba2bf0d86498d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a9c1d5bb132848c975efba2bf0d86498d">ResolutionBase</a> (std::vector&lt; double &gt; parameters)</td></tr>
+<tr class="memdesc:a9c1d5bb132848c975efba2bf0d86498d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A constructor.  <a href="#a9c1d5bb132848c975efba2bf0d86498d">More...</a><br/></td></tr>
 <tr class="separator:a9c1d5bb132848c975efba2bf0d86498d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24cd7c2962b6dfe66e4780d46f33adc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aa24cd7c2962b6dfe66e4780d46f33adc">~ResolutionBase</a> ()</td></tr>
+<tr class="memitem:aa24cd7c2962b6dfe66e4780d46f33adc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa24cd7c2962b6dfe66e4780d46f33adc"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aa24cd7c2962b6dfe66e4780d46f33adc">~ResolutionBase</a> ()</td></tr>
+<tr class="memdesc:aa24cd7c2962b6dfe66e4780d46f33adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The (defaulted) destructor. <br/></td></tr>
 <tr class="separator:aa24cd7c2962b6dfe66e4780d46f33adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Get)</div></td></tr>
 <tr class="memitem:ac9687c343bcbfb92106643cbead64904"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#ac9687c343bcbfb92106643cbead64904">GetSigma</a> (double par)=0</td></tr>
+<tr class="memdesc:ac9687c343bcbfb92106643cbead64904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the (approximate) width of the TF depending on the relevant parameter (mostly xmeas, but sumET in case of <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html" title="A class describing a Gaussian resolution, parametrized for MET. ">ResGauss_MET</a>).  <a href="#ac9687c343bcbfb92106643cbead64904">More...</a><br/></td></tr>
 <tr class="separator:ac9687c343bcbfb92106643cbead64904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eece4066d67bbf9e667a2a472c0e390"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a2eece4066d67bbf9e667a2a472c0e390">p</a> (double x, double xmeas, bool *good)</td></tr>
+<tr class="memdesc:a2eece4066d67bbf9e667a2a472c0e390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a2eece4066d67bbf9e667a2a472c0e390">More...</a><br/></td></tr>
 <tr class="separator:a2eece4066d67bbf9e667a2a472c0e390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d124c40d916a4852f3596a298ea44be"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5d124c40d916a4852f3596a298ea44be">p</a> (double x, double xmeas, bool *good, double par)</td></tr>
+<tr class="memdesc:a5d124c40d916a4852f3596a298ea44be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a5d124c40d916a4852f3596a298ea44be">More...</a><br/></td></tr>
 <tr class="separator:a5d124c40d916a4852f3596a298ea44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a289ff55b03737c6b2bf5264c581627a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a289ff55b03737c6b2bf5264c581627a0">Par</a> (int index, double *par)</td></tr>
+<tr class="memdesc:a289ff55b03737c6b2bf5264c581627a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a parameter of the parameterization.  <a href="#a289ff55b03737c6b2bf5264c581627a0">More...</a><br/></td></tr>
 <tr class="separator:a289ff55b03737c6b2bf5264c581627a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
 <tr class="memitem:a0b5bf645b21bd40a3329f33dc10eb731"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a0b5bf645b21bd40a3329f33dc10eb731">SetPar</a> (int index, double value)</td></tr>
+<tr class="memdesc:a0b5bf645b21bd40a3329f33dc10eb731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a parameter value.  <a href="#a0b5bf645b21bd40a3329f33dc10eb731">More...</a><br/></td></tr>
 <tr class="separator:a0b5bf645b21bd40a3329f33dc10eb731"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c5b1481ba9a63d4bb8fe28197f042fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a3c5b1481ba9a63d4bb8fe28197f042fb">SetPar</a> (std::vector&lt; double &gt; parameters)</td></tr>
+<tr class="memdesc:a3c5b1481ba9a63d4bb8fe28197f042fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all parameter values.  <a href="#a3c5b1481ba9a63d4bb8fe28197f042fb">More...</a><br/></td></tr>
 <tr class="separator:a3c5b1481ba9a63d4bb8fe28197f042fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (misc)</div></td></tr>
 <tr class="memitem:a450070479d1f024edfc417968768180f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a450070479d1f024edfc417968768180f">ReadParameters</a> (const char *filename, int nparameters)</td></tr>
+<tr class="memdesc:a450070479d1f024edfc417968768180f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read parameter values from ASCII file.  <a href="#a450070479d1f024edfc417968768180f">More...</a><br/></td></tr>
 <tr class="separator:a450070479d1f024edfc417968768180f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6e8eaa2ab63205a55dd6a318bd94653"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#ac6e8eaa2ab63205a55dd6a318bd94653">Status</a> ()</td></tr>
+<tr class="memdesc:ac6e8eaa2ab63205a55dd6a318bd94653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a status code.  <a href="#ac6e8eaa2ab63205a55dd6a318bd94653">More...</a><br/></td></tr>
 <tr class="separator:ac6e8eaa2ab63205a55dd6a318bd94653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a24d93621003dd92c655c23ed3fd11541"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a24d93621003dd92c655c23ed3fd11541">fNParameters</a></td></tr>
+<tr class="memitem:a24d93621003dd92c655c23ed3fd11541"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24d93621003dd92c655c23ed3fd11541"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a24d93621003dd92c655c23ed3fd11541">fNParameters</a></td></tr>
+<tr class="memdesc:a24d93621003dd92c655c23ed3fd11541"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of parameters. <br/></td></tr>
 <tr class="separator:a24d93621003dd92c655c23ed3fd11541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fd4322a9e61bbcbfccbc16b10f4b5d7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a0fd4322a9e61bbcbfccbc16b10f4b5d7">fParameters</a></td></tr>
+<tr class="memitem:a0fd4322a9e61bbcbfccbc16b10f4b5d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fd4322a9e61bbcbfccbc16b10f4b5d7"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a0fd4322a9e61bbcbfccbc16b10f4b5d7">fParameters</a></td></tr>
+<tr class="memdesc:a0fd4322a9e61bbcbfccbc16b10f4b5d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parameter values. <br/></td></tr>
 <tr class="separator:a0fd4322a9e61bbcbfccbc16b10f4b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -180,6 +196,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>The default constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -211,6 +228,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>A constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -218,30 +236,6 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="aa24cd7c2962b6dfe66e4780d46f33adc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">KLFitter::ResolutionBase::~ResolutionBase </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The (defaulted) destructor. </p>
 
 </div>
 </div>
@@ -267,7 +261,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return the (approximate) width of the TF depending on the relevant parameter (mostly xmeas, but sumET in case of <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html" title="A class describing a Gaussian resolution, parametrized for MET. ">ResGauss_MET</a>). Use to adjust the range of the fit parameter that correspond to the TF. </p>
+
+<p>Return the (approximate) width of the TF depending on the relevant parameter (mostly xmeas, but sumET in case of <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html" title="A class describing a Gaussian resolution, parametrized for MET. ">ResGauss_MET</a>). </p>
+<p>Use to adjust the range of the fit parameter that correspond to the TF. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Parameter on which the width depends </td></tr>
@@ -317,6 +313,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the probability of the true value of x given the measured value, xmeas. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -375,6 +372,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>Return the probability of the true value of x given the measured value, xmeas. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -414,6 +412,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return a parameter of the parameterization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -449,6 +448,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Read parameter values from ASCII file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -484,6 +484,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set a parameter value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -509,6 +510,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Set all parameter values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -532,51 +534,9 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Return a status code. </p>
 <dl class="section return"><dt>Returns</dt><dd>A status code (1: ok, 0: error). </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a24d93621003dd92c655c23ed3fd11541"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::ResolutionBase::fNParameters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The number of parameters. </p>
-
-</div>
-</div>
-<a class="anchor" id="a0fd4322a9e61bbcbfccbc16b10f4b5d7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; KLFitter::ResolutionBase::fParameters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The parameter values. </p>
 
 </div>
 </div>

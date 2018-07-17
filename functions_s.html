@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -106,7 +107,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -202,6 +203,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>SetFlagBTagging()
 : <a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#affb0d2547668713db116912aaff9790f">KLFitter::LikelihoodBase</a>
 </li>
+<li>SetFlagGetParSigmasFromTFs()
+: <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a27c841b0664f814f4a711c1d2659a4e7">KLFitter::LikelihoodTopLeptonJets</a>
+</li>
 <li>SetFlagHiggsMassFixed()
 : <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a8be6d0eb6888f2bfa94f19a1e19d562d">KLFitter::LikelihoodTTHLeptonJets</a>
 </li>
@@ -257,14 +261,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#ad1f91638baadffe374a453c34b1e3a95">KLFitter::LikelihoodSgTopWtLJ</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#aeafa2f88e03ee6366804bc8a819e4149">KLFitter::LikelihoodTopDilepton</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a266e6cbc52db093f9f1e73a1de1f9684">KLFitter::LikelihoodTopLeptonJets</a>
-, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a882e2031bb17263bf1acfb37e537a776">KLFitter::LikelihoodTTHLeptonJets</a>
+, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a05ae52d42948292dee9f625af5803ded">KLFitter::LikelihoodTTHLeptonJets</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a6a617ad2654407e0ae47381e619a8aa2">KLFitter::LikelihoodTTZTrilepton</a>
 </li>
 <li>SetLikelihood()
 : <a class="el" href="class_k_l_fitter_1_1_fitter.html#ae65a2ab4a7c20ff2c10960e05d23fb1f">KLFitter::Fitter</a>
 </li>
 <li>SetLJetSeparationMethod()
-: <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#ad3b467e059364f112c31ef4a481c0f1a">KLFitter::LikelihoodTopLeptonJetsUDSep</a>
+: <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#ae3b2ebc495d487497c5ce4a80d9c5dd1">KLFitter::LikelihoodTopLeptonJetsUDSep</a>
 </li>
 <li>SetMassBottom()
 : <a class="el" href="class_k_l_fitter_1_1_physics_constants.html#af83492998c1e84ab2f9cec3d67636188">KLFitter::PhysicsConstants</a>
@@ -365,7 +369,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a137af1a41a4c842b38a79664bde3bc56">KLFitter::BoostedLikelihoodTopLeptonJets</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a1e32cf39951ca99d7df68d5f4914d5c7">KLFitter::LikelihoodSgTopWtLJ</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#aa58636f5b2a3544f8e9ab9c8cc451a31">KLFitter::LikelihoodTopDilepton</a>
-, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a1ae53c1eb29de200f87eeb5b1ad1f2c7">KLFitter::LikelihoodTopLeptonJets</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#aa8d9c29c7eafdfd45cd1cdd4ce09c7d8">KLFitter::LikelihoodTTHLeptonJets</a>
 , <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a344b0f2e48ede3e2e55d1ddc322827dd">KLFitter::LikelihoodTTZTrilepton</a>
 </li>
