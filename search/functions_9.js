@@ -1,7 +1,7 @@
 var searchData=
 [
   ['leptoncharge',['LeptonCharge',['../class_k_l_fitter_1_1_particles.html#abe5837280fadac5a776d6f6d78d6b9cc',1,'KLFitter::Particles']]],
-  ['lhinvariantpermutationpartner',['LHInvariantPermutationPartner',['../class_k_l_fitter_1_1_likelihood_base.html#ad7f6f49fdfe6288502616dfaa52db65d',1,'KLFitter::LikelihoodBase::LHInvariantPermutationPartner()'],['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2429bbbcdbb10c0cae9abdfd88cbcb08',1,'KLFitter::LikelihoodTopLeptonJetsUDSep::LHInvariantPermutationPartner()']]],
+  ['lhinvariantpermutationpartner',['LHInvariantPermutationPartner',['../class_k_l_fitter_1_1_likelihood_base.html#afbd4ff0a6afcdda8777bdee4bdd8af78',1,'KLFitter::LikelihoodBase::LHInvariantPermutationPartner()'],['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2429bbbcdbb10c0cae9abdfd88cbcb08',1,'KLFitter::LikelihoodTopLeptonJetsUDSep::LHInvariantPermutationPartner()']]],
   ['likelihood',['Likelihood',['../class_k_l_fitter_1_1_fitter.html#ac0caf5afb7abf013745dac1a6f0e3146',1,'KLFitter::Fitter']]],
   ['likelihoodbase',['LikelihoodBase',['../class_k_l_fitter_1_1_likelihood_base.html#a91f04ec0422e977b5f5969f7855c775d',1,'KLFitter::LikelihoodBase']]],
   ['likelihoodsgtopwtlj',['LikelihoodSgTopWtLJ',['../class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a2f81d78c8e6cb0d26dcab63b98d466ed',1,'KLFitter::LikelihoodSgTopWtLJ']]],
@@ -13,7 +13,6 @@ var searchData=
   ['likelihoodtopleptonjetsudsep',['LikelihoodTopLeptonJetsUDSep',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#afc61c6b8a0cf0144b09d198e12b82e15',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
   ['likelihoodtthleptonjets',['LikelihoodTTHLeptonJets',['../class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a9a3ced288e823ad3b9f280f38c964547',1,'KLFitter::LikelihoodTTHLeptonJets']]],
   ['likelihoodttztrilepton',['LikelihoodTTZTrilepton',['../class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#aacb54523408d8fb04943008c5f7a72cf',1,'KLFitter::LikelihoodTTZTrilepton']]],
-  ['logaprioriprobability',['LogAPrioriProbability',['../class_k_l_fitter_1_1_likelihood_base.html#adfd1324795f1f945a43dd2daddd64431',1,'KLFitter::LikelihoodBase']]],
   ['logbreitwignerrelnorm',['LogBreitWignerRelNorm',['../class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a75c7f011af3fa6d1b4bf5ea22af8dc6c',1,'KLFitter::LikelihoodTTZTrilepton']]],
   ['logeventprobability',['LogEventProbability',['../class_k_l_fitter_1_1_likelihood_base.html#a5c6b147e24f4a9a4c7c199efd91580cf',1,'KLFitter::LikelihoodBase::LogEventProbability()'],['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a4720a0cf290e2719d54cd477e18dfbd3',1,'KLFitter::LikelihoodTopLeptonJetsUDSep::LogEventProbability()']]],
   ['logeventprobabilitybtag',['LogEventProbabilityBTag',['../class_k_l_fitter_1_1_likelihood_base.html#aa174187c84f40c305d1cbb33e70e6521',1,'KLFitter::LikelihoodBase::LogEventProbabilityBTag()'],['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a4a34c49d8218985700084a2c8006667f',1,'KLFitter::LikelihoodTopLeptonJetsUDSep::LogEventProbabilityBTag()']]],

@@ -247,9 +247,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afd90deb65789c3393e95b3a9df90b14a">DefineParameters</a> ()=0</td></tr>
 <tr class="memdesc:afd90deb65789c3393e95b3a9df90b14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the parameters of the fit. <br/></td></tr>
 <tr class="separator:afd90deb65789c3393e95b3a9df90b14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd1324795f1f945a43dd2daddd64431"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#adfd1324795f1f945a43dd2daddd64431">LogAPrioriProbability</a> (const std::vector&lt; double &gt; &amp;parameters)</td></tr>
-<tr class="memdesc:adfd1324795f1f945a43dd2daddd64431"><td class="mdescLeft">&#160;</td><td class="mdescRight">The prior probability definition, overloaded from BCModel.  <a href="#adfd1324795f1f945a43dd2daddd64431">More...</a><br/></td></tr>
-<tr class="separator:adfd1324795f1f945a43dd2daddd64431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09725bf96cef14aaf895cff88d933c11"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a09725bf96cef14aaf895cff88d933c11">LogLikelihood</a> (const std::vector&lt; double &gt; &amp;parameters)=0</td></tr>
 <tr class="memdesc:a09725bf96cef14aaf895cff88d933c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">The posterior probability definition, overloaded from BCModel.  <a href="#a09725bf96cef14aaf895cff88d933c11">More...</a><br/></td></tr>
 <tr class="separator:a09725bf96cef14aaf895cff88d933c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,9 +286,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:afe6f2b89f560c3307c0de8ca145e6ecf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afe6f2b89f560c3307c0de8ca145e6ecf">GetBestFitParameterError</a> (unsigned int index)</td></tr>
 <tr class="memdesc:afe6f2b89f560c3307c0de8ca145e6ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the errors of the best fit parameter i, overloaded from BCModel.  <a href="#afe6f2b89f560c3307c0de8ca145e6ecf">More...</a><br/></td></tr>
 <tr class="separator:afe6f2b89f560c3307c0de8ca145e6ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7f6f49fdfe6288502616dfaa52db65d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#ad7f6f49fdfe6288502616dfaa52db65d">LHInvariantPermutationPartner</a> (int iperm, int nperms, int *switchpar1, int *switchpar2)</td></tr>
-<tr class="memdesc:ad7f6f49fdfe6288502616dfaa52db65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the permutation is LH invariant.  <a href="#ad7f6f49fdfe6288502616dfaa52db65d">More...</a><br/></td></tr>
-<tr class="separator:ad7f6f49fdfe6288502616dfaa52db65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd4ff0a6afcdda8777bdee4bdd8af78"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afbd4ff0a6afcdda8777bdee4bdd8af78">LHInvariantPermutationPartner</a> (int, int, int *, int *)</td></tr>
+<tr class="memdesc:afbd4ff0a6afcdda8777bdee4bdd8af78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the permutation is LH invariant.  <a href="#afbd4ff0a6afcdda8777bdee4bdd8af78">More...</a><br/></td></tr>
+<tr class="separator:afbd4ff0a6afcdda8777bdee4bdd8af78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c9fb28d9221d82c04eb2d8653c57ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a95c9fb28d9221d82c04eb2d8653c57ff">GetParametersFromCache</a> (int iperm)</td></tr>
 <tr class="memdesc:a95c9fb28d9221d82c04eb2d8653c57ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write parameters from fCachedParametersVector.at(iperm) to fCachedParameters.  <a href="#a95c9fb28d9221d82c04eb2d8653c57ff">More...</a><br/></td></tr>
 <tr class="separator:a95c9fb28d9221d82c04eb2d8653c57ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -762,7 +759,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 </div>
 </div>
-<a class="anchor" id="ad7f6f49fdfe6288502616dfaa52db65d"></a>
+<a class="anchor" id="afbd4ff0a6afcdda8777bdee4bdd8af78"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -773,25 +770,25 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
           <td class="memname">virtual int KLFitter::LikelihoodBase::LHInvariantPermutationPartner </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>iperm</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>nperms</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>switchpar1</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>switchpar2</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -819,39 +816,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <dl class="section return"><dt>Returns</dt><dd>Permutation of the invariant partner, -1 if there is no one. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2429bbbcdbb10c0cae9abdfd88cbcb08">KLFitter::LikelihoodTopLeptonJetsUDSep</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adfd1324795f1f945a43dd2daddd64431"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double KLFitter::LikelihoodBase::LogAPrioriProbability </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>parameters</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The prior probability definition, overloaded from BCModel. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">parameters</td><td>A vector of parameters (double values). </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The logarithm of the prior probability. </dd></dl>
 
 </div>
 </div>
@@ -1370,7 +1334,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An error flag. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a95cedcf477449102d01052187acc6ffb">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#aff91e3e19252c5079d10124dacfdf263">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a1f8fb79c39f9f04a6581265bd125729e">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a56085ec1513c4afd6e2518f6d3b7d6d2">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a96c2168ec01666eacfcbb809e9afafdd">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a5b8fba9c6face16d96193fb0dfde1a10">KLFitter::BoostedLikelihoodTopLeptonJets</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#adc8c0c9ff843ba47d40a002586c8ea1a">KLFitter::LikelihoodTopAllHadronic</a>.</p>
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a95cedcf477449102d01052187acc6ffb">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#aff91e3e19252c5079d10124dacfdf263">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a1f8fb79c39f9f04a6581265bd125729e">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a56085ec1513c4afd6e2518f6d3b7d6d2">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a96c2168ec01666eacfcbb809e9afafdd">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a5b8fba9c6face16d96193fb0dfde1a10">KLFitter::BoostedLikelihoodTopLeptonJets</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#ab3959da9f341ea7309268af3409f823a">KLFitter::LikelihoodTopAllHadronic</a>.</p>
 
 </div>
 </div>

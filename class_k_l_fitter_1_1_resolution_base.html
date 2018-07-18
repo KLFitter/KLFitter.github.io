@@ -136,12 +136,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ac9687c343bcbfb92106643cbead64904"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#ac9687c343bcbfb92106643cbead64904">GetSigma</a> (double par)=0</td></tr>
 <tr class="memdesc:ac9687c343bcbfb92106643cbead64904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the (approximate) width of the TF depending on the relevant parameter (mostly xmeas, but sumET in case of <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html" title="A class describing a Gaussian resolution, parametrized for MET. ">ResGauss_MET</a>).  <a href="#ac9687c343bcbfb92106643cbead64904">More...</a><br/></td></tr>
 <tr class="separator:ac9687c343bcbfb92106643cbead64904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eece4066d67bbf9e667a2a472c0e390"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a2eece4066d67bbf9e667a2a472c0e390">p</a> (double x, double xmeas, bool *good)</td></tr>
-<tr class="memdesc:a2eece4066d67bbf9e667a2a472c0e390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a2eece4066d67bbf9e667a2a472c0e390">More...</a><br/></td></tr>
-<tr class="separator:a2eece4066d67bbf9e667a2a472c0e390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d124c40d916a4852f3596a298ea44be"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5d124c40d916a4852f3596a298ea44be">p</a> (double x, double xmeas, bool *good, double par)</td></tr>
-<tr class="memdesc:a5d124c40d916a4852f3596a298ea44be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a5d124c40d916a4852f3596a298ea44be">More...</a><br/></td></tr>
-<tr class="separator:a5d124c40d916a4852f3596a298ea44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9e6db728d93a2ec059055db35185e3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">p</a> (double, double, bool *good, double=0)</td></tr>
+<tr class="memdesc:aee9e6db728d93a2ec059055db35185e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#aee9e6db728d93a2ec059055db35185e3">More...</a><br/></td></tr>
+<tr class="separator:aee9e6db728d93a2ec059055db35185e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a289ff55b03737c6b2bf5264c581627a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a289ff55b03737c6b2bf5264c581627a0">Par</a> (int index, double *par)</td></tr>
 <tr class="memdesc:a289ff55b03737c6b2bf5264c581627a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a parameter of the parameterization.  <a href="#a289ff55b03737c6b2bf5264c581627a0">More...</a><br/></td></tr>
 <tr class="separator:a289ff55b03737c6b2bf5264c581627a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,11 +269,11 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The width. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a90e47370c53ff8bcc12ad66149aa216c">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#a281c6f95ea121594c8eafc1485e26427">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#adfa0875a530d659c3249e657f694fe26">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#acfbfad6c3cb0e7589494b15ecd8ea352">KLFitter::ResGauss_MET</a>, and <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#abb316cfa040267109db1819d48306858">KLFitter::ResGauss</a>.</p>
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a1a78d1a3ccdb5bf29a8de922cf6f9aa9">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#a8d79b81dd3260c281a497ac948f192c3">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#af9082de635f55f85e4ed8e0c15e09a94">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#acfbfad6c3cb0e7589494b15ecd8ea352">KLFitter::ResGauss_MET</a>, and <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a38e30d8e8946466005fcfdbf92f258e3">KLFitter::ResGauss</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2eece4066d67bbf9e667a2a472c0e390"></a>
+<a class="anchor" id="aee9e6db728d93a2ec059055db35185e3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -287,66 +284,13 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
           <td class="memname">virtual double KLFitter::ResolutionBase::p </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmeas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool *&#160;</td>
-          <td class="paramname"><em>good</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the probability of the true value of x given the measured value, xmeas. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>The true value of x. </td></tr>
-    <tr><td class="paramname">xmeas</td><td>The measured value of x. </td></tr>
-    <tr><td class="paramname">good</td><td>False if problem with TF. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a4e5c8bcbf0ddd3c95f104d5f74a404af">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#a808fb8cfcc6a632d0d55c96d0f105808">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#a1193b47840fb68cc36ed921252e5e441">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#ad2b804366fc919de08c35cb5d5c0719f">KLFitter::ResGauss_MET</a>, and <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a63b5e54a36099ce58dd9af5bde334fb4">KLFitter::ResGauss</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5d124c40d916a4852f3596a298ea44be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double KLFitter::ResolutionBase::p </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmeas</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -358,7 +302,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>par</em>&#160;</td>
+          <td class="paramname"> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -385,7 +329,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#ac3760756e43934183559ea5e6fe7f51e">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#af1c36390b74c0b8473828194d724f11d">KLFitter::ResGauss_MET</a>, and <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a21a207efdd5bab7ec9afa9255c0f03ac">KLFitter::ResGauss</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a70b9c45ddb8434c71a018ea8b1c396c5">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#a4aec18282b01f6a7b68893174b6b5666">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#ab43390603cb410970465a2bfb5331885">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#af1c36390b74c0b8473828194d724f11d">KLFitter::ResGauss_MET</a>, and <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a0f7dbea14eaef7b07c393e9a0c5f96ea">KLFitter::ResGauss</a>.</p>
 
 </div>
 </div>

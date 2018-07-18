@@ -123,15 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5f3bc850e80ee306d0308c471cf9cbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The (defaulted) destructor. <br/></td></tr>
 <tr class="separator:a5f3bc850e80ee306d0308c471cf9cbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Get)</div></td></tr>
-<tr class="memitem:abb316cfa040267109db1819d48306858"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#abb316cfa040267109db1819d48306858">GetSigma</a> (double dummy=0) override</td></tr>
-<tr class="memdesc:abb316cfa040267109db1819d48306858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the width of the TF depending on the measured value of x.  <a href="#abb316cfa040267109db1819d48306858">More...</a><br/></td></tr>
-<tr class="separator:abb316cfa040267109db1819d48306858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b5e54a36099ce58dd9af5bde334fb4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a63b5e54a36099ce58dd9af5bde334fb4">p</a> (double x, double xmeas, bool *good) override</td></tr>
-<tr class="memdesc:a63b5e54a36099ce58dd9af5bde334fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a63b5e54a36099ce58dd9af5bde334fb4">More...</a><br/></td></tr>
-<tr class="separator:a63b5e54a36099ce58dd9af5bde334fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21a207efdd5bab7ec9afa9255c0f03ac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a21a207efdd5bab7ec9afa9255c0f03ac">p</a> (double x, double xmeas, bool *good, double par) override</td></tr>
-<tr class="memdesc:a21a207efdd5bab7ec9afa9255c0f03ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a21a207efdd5bab7ec9afa9255c0f03ac">More...</a><br/></td></tr>
-<tr class="separator:a21a207efdd5bab7ec9afa9255c0f03ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e30d8e8946466005fcfdbf92f258e3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a38e30d8e8946466005fcfdbf92f258e3">GetSigma</a> (double par=0) override</td></tr>
+<tr class="memdesc:a38e30d8e8946466005fcfdbf92f258e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the width of the TF depending on the measured value of x.  <a href="#a38e30d8e8946466005fcfdbf92f258e3">More...</a><br/></td></tr>
+<tr class="separator:a38e30d8e8946466005fcfdbf92f258e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a0f7dbea14eaef7b07c393e9a0c5f96ea">p</a> (double x, double xmeas, bool *good, double par=0) override</td></tr>
+<tr class="memdesc:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a0f7dbea14eaef7b07c393e9a0c5f96ea">More...</a><br/></td></tr>
+<tr class="separator:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
 <tr class="memitem:ad043e090a251ef5db5933beca40d6576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#ad043e090a251ef5db5933beca40d6576">SetSigma</a> (double sigma)</td></tr>
 <tr class="memdesc:ad043e090a251ef5db5933beca40d6576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width of the Gaussian.  <a href="#ad043e090a251ef5db5933beca40d6576">More...</a><br/></td></tr>
@@ -212,7 +209,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abb316cfa040267109db1819d48306858"></a>
+<a class="anchor" id="a38e30d8e8946466005fcfdbf92f258e3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,7 +220,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
           <td class="memname">double KLFitter::ResGauss::GetSigma </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>dummy</em> = <code>0</code></td><td>)</td>
+          <td class="paramname"><em>par</em> = <code>0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -238,7 +235,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <p>Used to adjust the range of the fit parameter that correspond to the TF. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dummy</td><td>Dummy parameter. Only needed to satisfy the interface. </td></tr>
+    <tr><td class="paramname">par</td><td>Dummy parameter. Only needed to satisfy the interface. </td></tr>
   </table>
   </dd>
 </dl>
@@ -248,60 +245,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 
 </div>
 </div>
-<a class="anchor" id="a63b5e54a36099ce58dd9af5bde334fb4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double KLFitter::ResGauss::p </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmeas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool *&#160;</td>
-          <td class="paramname"><em>good</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the probability of the true value of x given the measured value, xmeas. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>The true value of x. </td></tr>
-    <tr><td class="paramname">xmeas</td><td>The measured value of x. </td></tr>
-    <tr><td class="paramname">good</td><td>False if problem with TF. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a2eece4066d67bbf9e667a2a472c0e390">KLFitter::ResolutionBase</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a21a207efdd5bab7ec9afa9255c0f03ac"></a>
+<a class="anchor" id="a0f7dbea14eaef7b07c393e9a0c5f96ea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -330,7 +274,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>par</em>&#160;</td>
+          <td class="paramname"><em>par</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -340,7 +284,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -351,13 +295,13 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
     <tr><td class="paramname">x</td><td>The true value of x. </td></tr>
     <tr><td class="paramname">xmeas</td><td>The measured value of x. </td></tr>
     <tr><td class="paramname">good</td><td>False if problem with TF. </td></tr>
-    <tr><td class="paramname">par</td><td>Optional additional parameter (SumET in case of MET TF). </td></tr>
+    <tr><td class="paramname">par</td><td>Optional additional parameter (not used here). </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5d124c40d916a4852f3596a298ea44be">KLFitter::ResolutionBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">KLFitter::ResolutionBase</a>.</p>
 
 </div>
 </div>
