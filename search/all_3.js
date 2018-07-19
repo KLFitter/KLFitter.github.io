@@ -13,7 +13,7 @@ var searchData=
   ['detectorbase',['DetectorBase',['../class_k_l_fitter_1_1_detector_base.html#ac752bd6b52f8198b0bab9adf8aafde58',1,'KLFitter::DetectorBase']]],
   ['detectorsnowmass',['DetectorSnowmass',['../class_k_l_fitter_1_1_detector_snowmass.html',1,'KLFitter']]],
   ['detectorsnowmass',['DetectorSnowmass',['../class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e',1,'KLFitter::DetectorSnowmass']]],
-  ['deteta',['DetEta',['../class_k_l_fitter_1_1_particles.html#a521087b17cc043733010aaf83b9e3081',1,'KLFitter::Particles']]],
+  ['deteta',['DetEta',['../class_k_l_fitter_1_1_particles.html#a4cd193cbe6d54f1c55bb046f68e7f7eb',1,'KLFitter::Particles']]],
   ['dosumloglik',['doSumloglik',['../class_k_l_fitter_1_1_likelihood_top_dilepton.html#a1b75daae0ca066d9466baea5a3968939',1,'KLFitter::LikelihoodTopDilepton']]],
   ['downjetprob',['DownJetProb',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a275c5e03519529e65a36a8c725d257af',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
   ['downjetpt',['DownJetPt',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a7e701ed60abfbac88ac54b2a016945fc',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
