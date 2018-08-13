@@ -15,5 +15,6 @@ var searchData=
   ['kpermreweight',['kPermReweight',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#afa9399930e4349457e052798fbcc94b2ad96c1ead77f92d91aa121d2402728993',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
   ['kpermreweight2d',['kPermReweight2D',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#afa9399930e4349457e052798fbcc94b2a8147710a66bbbf00fd000812055c7c68',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
   ['kphoton',['kPhoton',['../class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daef9d338c42a5547a6532b33824a605ca',1,'KLFitter::Particles']]],
-  ['ktau',['kTau',['../class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daba4d28e622a5b9bfad791fd8fc9881d7',1,'KLFitter::Particles']]]
+  ['ktau',['kTau',['../class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daba4d28e622a5b9bfad791fd8fc9881d7',1,'KLFitter::Particles']]],
+  ['ktrack',['kTrack',['../class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daff36bf9c63c76745d8d2f9f0b41ae437',1,'KLFitter::Particles']]]
 ];

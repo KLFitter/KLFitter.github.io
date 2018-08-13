@@ -22,6 +22,7 @@ var searchData=
   ['npermutations',['NPermutations',['../class_k_l_fitter_1_1_permutations.html#afd788b1a8fb156503fd795861d44ba7a',1,'KLFitter::Permutations']]],
   ['nphotons',['NPhotons',['../class_k_l_fitter_1_1_particles.html#abf14e17c6dea2f2e72cd2e5fe1798e4c',1,'KLFitter::Particles']]],
   ['ntaus',['NTaus',['../class_k_l_fitter_1_1_particles.html#af9ad09222269f714f367b8d65b989e9e',1,'KLFitter::Particles']]],
+  ['ntracks',['NTracks',['../class_k_l_fitter_1_1_particles.html#a39e64da0dd60aa5de25fa2757798b3e7',1,'KLFitter::Particles']]],
   ['nueta_5fparams',['nueta_params',['../class_k_l_fitter_1_1_likelihood_top_dilepton.html#ac5c0b3cda443850bfbb6d9e71d631301',1,'KLFitter::LikelihoodTopDilepton']]],
   ['nusolutions',['NuSolutions',['../class_k_l_fitter_1_1_nu_solutions.html',1,'KLFitter']]]
 ];

@@ -16,6 +16,7 @@ var searchData=
   ['_7elikelihoodtopleptonjetsudsep',['~LikelihoodTopLeptonJetsUDSep',['../class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#aef34dcf9c36542771df78f9c563e4fd2',1,'KLFitter::LikelihoodTopLeptonJetsUDSep']]],
   ['_7elikelihoodtthleptonjets',['~LikelihoodTTHLeptonJets',['../class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a9cb2da5bfe67a7dccd3dcece74854a97',1,'KLFitter::LikelihoodTTHLeptonJets']]],
   ['_7elikelihoodttztrilepton',['~LikelihoodTTZTrilepton',['../class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#aae0fec0097f193ae7eb65c89b803b660',1,'KLFitter::LikelihoodTTZTrilepton']]],
+  ['_7elikelihoodtwotracks',['~LikelihoodTwoTracks',['../class_k_l_fitter_1_1_likelihood_two_tracks.html#ab0b993c0d9ecb81cdddd4e2ccfefa6ea',1,'KLFitter::LikelihoodTwoTracks']]],
   ['_7eparticles',['~Particles',['../class_k_l_fitter_1_1_particles.html#afff97e0cc069a26e67875aea5b5d02a0',1,'KLFitter::Particles']]],
   ['_7epermutations',['~Permutations',['../class_k_l_fitter_1_1_permutations.html#a5bd9eca0d6ab9a4281d574b5d59b4b78',1,'KLFitter::Permutations']]],
   ['_7ephysicsconstants',['~PhysicsConstants',['../class_k_l_fitter_1_1_physics_constants.html#a6e9740a1b6f82715ea2a883508ffe013',1,'KLFitter::PhysicsConstants']]],

@@ -110,7 +110,8 @@ Public Types</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675da951dd812e93c7cd15ac6569640f49e1f">kNeutrino</a>, 
 <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675dacab0e3961ac984ebffb3f84ed91fff08">kBoson</a>, 
-<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daef9d338c42a5547a6532b33824a605ca">kPhoton</a>
+<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daef9d338c42a5547a6532b33824a605ca">kPhoton</a>, 
+<a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675daff36bf9c63c76745d8d2f9f0b41ae437">kTrack</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a24064667e3bb3d6b61e774bc195a675d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerator for particle types.  <a href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">More...</a><br/></td></tr>
@@ -168,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf14e17c6dea2f2e72cd2e5fe1798e4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#abf14e17c6dea2f2e72cd2e5fe1798e4c">NPhotons</a> () const </td></tr>
 <tr class="memdesc:abf14e17c6dea2f2e72cd2e5fe1798e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of photons.  <a href="#abf14e17c6dea2f2e72cd2e5fe1798e4c">More...</a><br/></td></tr>
 <tr class="separator:abf14e17c6dea2f2e72cd2e5fe1798e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e64da0dd60aa5de25fa2757798b3e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a39e64da0dd60aa5de25fa2757798b3e7">NTracks</a> () const </td></tr>
+<tr class="memdesc:a39e64da0dd60aa5de25fa2757798b3e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of tracks.  <a href="#a39e64da0dd60aa5de25fa2757798b3e7">More...</a><br/></td></tr>
+<tr class="separator:a39e64da0dd60aa5de25fa2757798b3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2fb7b51726ff8d94b071946a9704c6"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a8a2fb7b51726ff8d94b071946a9704c6">Particle</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a8a2fb7b51726ff8d94b071946a9704c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle with a certain name.  <a href="#a8a2fb7b51726ff8d94b071946a9704c6">More...</a><br/></td></tr>
 <tr class="separator:a8a2fb7b51726ff8d94b071946a9704c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +202,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a1844695f0df8d4599b8d4aa4ee4ee238">Photon</a> (int index)</td></tr>
 <tr class="memdesc:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the photon at some index.  <a href="#a1844695f0df8d4599b8d4aa4ee4ee238">More...</a><br/></td></tr>
 <tr class="separator:a1844695f0df8d4599b8d4aa4ee4ee238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea4a6a510a8d946452701783ca59371"><td class="memItemLeft" align="right" valign="top">TLorentzVector *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a0ea4a6a510a8d946452701783ca59371">Track</a> (int index)</td></tr>
+<tr class="memdesc:a0ea4a6a510a8d946452701783ca59371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track at some index.  <a href="#a0ea4a6a510a8d946452701783ca59371">More...</a><br/></td></tr>
+<tr class="separator:a0ea4a6a510a8d946452701783ca59371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409f9a442bc01154153a98eb16964de5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a409f9a442bc01154153a98eb16964de5">NParticles</a> () const </td></tr>
 <tr class="memdesc:a409f9a442bc01154153a98eb16964de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of particles.  <a href="#a409f9a442bc01154153a98eb16964de5">More...</a><br/></td></tr>
 <tr class="separator:a409f9a442bc01154153a98eb16964de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +244,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48f4b6fd0d73c8bde6a3505539decd7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a48f4b6fd0d73c8bde6a3505539decd7b">PhotonIndex</a> (int index) const </td></tr>
 <tr class="memdesc:a48f4b6fd0d73c8bde6a3505539decd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of the measured particle.  <a href="#a48f4b6fd0d73c8bde6a3505539decd7b">More...</a><br/></td></tr>
 <tr class="separator:a48f4b6fd0d73c8bde6a3505539decd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d83234fe7acb7d7464369b5869c83f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a6d83234fe7acb7d7464369b5869c83f8">TrackIndex</a> (int index) const </td></tr>
+<tr class="memdesc:a6d83234fe7acb7d7464369b5869c83f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of the measured particle.  <a href="#a6d83234fe7acb7d7464369b5869c83f8">More...</a><br/></td></tr>
+<tr class="separator:a6d83234fe7acb7d7464369b5869c83f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55d8062476664c0900cf74625e4808e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a55d8062476664c0900cf74625e4808e3">TrueFlavor</a> (int index) const </td></tr>
 <tr class="memdesc:a55d8062476664c0900cf74625e4808e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true flavor of a parton.  <a href="#a55d8062476664c0900cf74625e4808e3">More...</a><br/></td></tr>
 <tr class="separator:a55d8062476664c0900cf74625e4808e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,6 +265,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af560ec5773cff3198e03173e246fb66c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#af560ec5773cff3198e03173e246fb66c">BTagWeightSet</a> (int index) const </td></tr>
 <tr class="memdesc:af560ec5773cff3198e03173e246fb66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the bool of a set tagging weight.  <a href="#af560ec5773cff3198e03173e246fb66c">More...</a><br/></td></tr>
 <tr class="separator:af560ec5773cff3198e03173e246fb66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99204573f305ce2d44a7904a52d0e785"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a99204573f305ce2d44a7904a52d0e785">Uncertainties</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype) const </td></tr>
+<tr class="memdesc:a99204573f305ce2d44a7904a52d0e785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the uncertainty of a particle with some index and type.  <a href="#a99204573f305ce2d44a7904a52d0e785">More...</a><br/></td></tr>
+<tr class="separator:a99204573f305ce2d44a7904a52d0e785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cd193cbe6d54f1c55bb046f68e7f7eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a4cd193cbe6d54f1c55bb046f68e7f7eb">DetEta</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype) const </td></tr>
 <tr class="memdesc:a4cd193cbe6d54f1c55bb046f68e7f7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the detector eta of a particle with some index and type.  <a href="#a4cd193cbe6d54f1c55bb046f68e7f7eb">More...</a><br/></td></tr>
 <tr class="separator:a4cd193cbe6d54f1c55bb046f68e7f7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,6 +319,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a9ff79e370e7d854f71ead1446ce6bfbb">AddParticle</a> (const TLorentzVector *const particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name, int measuredindex, <a class="el" href="class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6">TrueFlavorType</a> trueflav, double btagweight=999)</td></tr>
 <tr class="memdesc:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED FUNCTION.  <a href="#a9ff79e370e7d854f71ead1446ce6bfbb">More...</a><br/></td></tr>
 <tr class="separator:a9ff79e370e7d854f71ead1446ce6bfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759ef5ecd4941be03eecd830460485cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a759ef5ecd4941be03eecd830460485cd">AddParticle</a> (const TLorentzVector &amp;particle, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype, std::string name=&quot;&quot;, int measuredindex=-1, const std::vector&lt; double &gt; &amp;uncertainies=std::vector&lt; double &gt;())</td></tr>
+<tr class="memdesc:a759ef5ecd4941be03eecd830460485cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a particle to a list of particles.  <a href="#a759ef5ecd4941be03eecd830460485cd">More...</a><br/></td></tr>
+<tr class="separator:a759ef5ecd4941be03eecd830460485cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7987e2d7b437abdbc6dca57f914e17f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_particles.html#a7987e2d7b437abdbc6dca57f914e17f9">RemoveParticle</a> (int index, <a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a> ptype)</td></tr>
 <tr class="memdesc:a7987e2d7b437abdbc6dca57f914e17f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a particle from a list of particles.  <a href="#a7987e2d7b437abdbc6dca57f914e17f9">More...</a><br/></td></tr>
 <tr class="separator:a7987e2d7b437abdbc6dca57f914e17f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,6 +381,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a24064667e3bb3d6b61e774bc195a675daef9d338c42a5547a6532b33824a605ca"></a>kPhoton</em>&#160;</td><td class="fielddoc">
 <p>Particle type photon. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a24064667e3bb3d6b61e774bc195a675daff36bf9c63c76745d8d2f9f0b41ae437"></a>kTrack</em>&#160;</td><td class="fielddoc">
+<p>Particle type track. </p>
 </td></tr>
 </table>
 
@@ -958,6 +977,61 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 <p>DEPRECATED FUNCTION. </p>
 <p>This is an overloaded implementation of the previous function using TLorentzVector pointers instead of const ref. The usage of this function is deprecated and it will be removed in the next major release. Please switch to the above implementation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a759ef5ecd4941be03eecd830460485cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KLFitter::Particles::AddParticle </td>
+          <td>(</td>
+          <td class="paramtype">const TLorentzVector &amp;&#160;</td>
+          <td class="paramname"><em>particle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a>&#160;</td>
+          <td class="paramname"><em>ptype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>measuredindex</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>uncertainies</em> = <code>std::vector&lt;double&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a particle to a list of particles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particle</td><td>A pointer to the particle. </td></tr>
+    <tr><td class="paramname">ptype</td><td>The type of particle. </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the particle. </td></tr>
+    <tr><td class="paramname">uncertainies</td><td>The associated uncertainties. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1878,6 +1952,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
+<a class="anchor" id="a39e64da0dd60aa5de25fa2757798b3e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KLFitter::Particles::NTracks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of tracks. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of tracks. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8a2fb7b51726ff8d94b071946a9704c6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2380,6 +2480,56 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
+<a class="anchor" id="a0ea4a6a510a8d946452701783ca59371"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector * KLFitter::Particles::Track </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the track at some index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The track index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the TLorentzVector of the track. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6d83234fe7acb7d7464369b5869c83f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KLFitter::Particles::TrackIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the index of the measured particle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the model particle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the measured particle. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a55d8062476664c0900cf74625e4808e3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2410,6 +2560,42 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The parton true flavor. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a99204573f305ce2d44a7904a52d0e785"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; double &gt; * KLFitter::Particles::Uncertainties </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_particles.html#a24064667e3bb3d6b61e774bc195a675d">KLFitter::Particles::ParticleType</a>&#160;</td>
+          <td class="paramname"><em>ptype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the uncertainty of a particle with some index and type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the particle </td></tr>
+    <tr><td class="paramname">ptype</td><td>The particle type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The uncertaintie of the particle </dd></dl>
 
 </div>
 </div>

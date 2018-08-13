@@ -21,5 +21,6 @@ var searchData=
   ['npartons',['NPartons',['../class_k_l_fitter_1_1_particles.html#a0c0b219226065c13294f27ca787c1a0e',1,'KLFitter::Particles']]],
   ['npermutations',['NPermutations',['../class_k_l_fitter_1_1_permutations.html#afd788b1a8fb156503fd795861d44ba7a',1,'KLFitter::Permutations']]],
   ['nphotons',['NPhotons',['../class_k_l_fitter_1_1_particles.html#abf14e17c6dea2f2e72cd2e5fe1798e4c',1,'KLFitter::Particles']]],
-  ['ntaus',['NTaus',['../class_k_l_fitter_1_1_particles.html#af9ad09222269f714f367b8d65b989e9e',1,'KLFitter::Particles']]]
+  ['ntaus',['NTaus',['../class_k_l_fitter_1_1_particles.html#af9ad09222269f714f367b8d65b989e9e',1,'KLFitter::Particles']]],
+  ['ntracks',['NTracks',['../class_k_l_fitter_1_1_particles.html#a39e64da0dd60aa5de25fa2757798b3e7',1,'KLFitter::Particles']]]
 ];
