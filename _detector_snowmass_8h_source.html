@@ -118,67 +118,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">// ---------------------------------------------------------</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">namespace </span>KLFitter {</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_k_l_fitter_1_1_detector_snowmass.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html">DetectorSnowmass</a> : <span class="keyword">public</span> <a class="code" href="class_k_l_fitter_1_1_detector_base.html">DetectorBase</a> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">/* @{ */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">explicit</span> <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e">DetectorSnowmass</a>(std::string folder = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a9bc2bf9bf6e67eb65b61d5d4c8746333">~DetectorSnowmass</a>();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">/* @} */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">/* @{ */</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#afd84fd09b5d5e8d5e99fb3cc7c1c2a38">ResEnergyLightJet</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#af6ed3dfb0e705f24d02fd011ca51b6c7">ResEnergyBJet</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#ac3d729648465e4bd01eb2347e699b299">ResEnergyElectron</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a648d49beaf9e3b1ad46e0c99523bb23f">ResEnergyMuon</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a1f66dd1829e47ddbd38c9c974091401c">ResMissingET</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="comment">/* @} */</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span>KLFitter {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>ResolutionBase;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_k_l_fitter_1_1_detector_snowmass.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html">DetectorSnowmass</a> : <span class="keyword">public</span> <a class="code" href="class_k_l_fitter_1_1_detector_base.html">DetectorBase</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keyword">explicit</span> <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e">DetectorSnowmass</a>(std::string folder = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a9bc2bf9bf6e67eb65b61d5d4c8746333">~DetectorSnowmass</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="comment">/* @{ */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a7bd0e53e3537805a3fe4d34f2bd2b205">ResEnergyLightJet</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a5ffb9b11c65da8660b80618a7eeb0c57">ResEnergyBJet</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a569051aa0d1ff3e94db03d0ae1ba3880">ResEnergyElectron</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#aa2d745d421c64b6d74385b3749358bff">ResEnergyMuon</a>(<span class="keywordtype">double</span> eta = 0.) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <a class="code" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a>* <a class="code" href="class_k_l_fitter_1_1_detector_snowmass.html#a7c20388af98bc21cbc2b55a2fb07f4d4">ResMissingET</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="comment">/* @} */</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_jet_energy_eta1;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_jet_energy_eta2;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_jet_energy_eta3;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_electron_energy_eta1;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_electron_energy_eta2;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResEnergyJet_eta1;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResEnergyJet_eta2;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResEnergyJet_eta3;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResEnergyElectron_eta1;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResEnergyElectron_eta2;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResMomentumMuon_eta1;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResMomentumMuon_eta2;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; fResMissingET_eta1;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">double</span> fJetEtaBin_1;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordtype">double</span> fJetEtaBin_2;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keywordtype">double</span> fJetEtaBin_3;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordtype">double</span> fElectronEtaBin_1;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">double</span> fElectronEtaBin_2;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keywordtype">double</span> fMuonEtaBin_1;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordtype">double</span> fMuonEtaBin_2;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;};</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;}  <span class="comment">// namespace KLFitter</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor">#endif  // KLFITTER_DetectorSnowmass_H_</span></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_afd84fd09b5d5e8d5e99fb3cc7c1c2a38"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#afd84fd09b5d5e8d5e99fb3cc7c1c2a38">KLFitter::DetectorSnowmass::ResEnergyLightJet</a></div><div class="ttdeci">ResolutionBase * ResEnergyLightJet(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of light-jets. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:71</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_base_html"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_base.html">KLFitter::DetectorBase</a></div><div class="ttdoc">A base class for describing detectors. </div><div class="ttdef"><b>Definition:</b> DetectorBase.h:42</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_ac3d729648465e4bd01eb2347e699b299"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#ac3d729648465e4bd01eb2347e699b299">KLFitter::DetectorSnowmass::ResEnergyElectron</a></div><div class="ttdeci">ResolutionBase * ResEnergyElectron(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of electrons. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:103</div></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_muon_momentum_eta1;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_muon_momentum_eta2;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  std::unique_ptr&lt;ResolutionBase&gt; m_res_missing_ET;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_jet_eta_bin_1{1.7};</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_jet_eta_bin_2{3.2};</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_jet_eta_bin_3{4.9};</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_electron_eta_bin_1{3.0};</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_electron_eta_bin_2{5.0};</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_muon_eta_bin_1{1.5};</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> m_muon_eta_bin_2{2.5};</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;};</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}  <span class="comment">// namespace KLFitter</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif  // KLFITTER_DetectorSnowmass_H_</span></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_base_html"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_base.html">KLFitter::DetectorBase</a></div><div class="ttdoc">A base class for describing detectors. </div><div class="ttdef"><b>Definition:</b> DetectorBase.h:36</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a7c20388af98bc21cbc2b55a2fb07f4d4"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a7c20388af98bc21cbc2b55a2fb07f4d4">KLFitter::DetectorSnowmass::ResMissingET</a></div><div class="ttdeci">ResolutionBase * ResMissingET() override</div><div class="ttdoc">Return the missing ET resolution. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:105</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a569051aa0d1ff3e94db03d0ae1ba3880"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a569051aa0d1ff3e94db03d0ae1ba3880">KLFitter::DetectorSnowmass::ResEnergyElectron</a></div><div class="ttdeci">ResolutionBase * ResEnergyElectron(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of electrons. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:81</div></div>
 <div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a9bc2bf9bf6e67eb65b61d5d4c8746333"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a9bc2bf9bf6e67eb65b61d5d4c8746333">KLFitter::DetectorSnowmass::~DetectorSnowmass</a></div><div class="ttdeci">~DetectorSnowmass()</div><div class="ttdoc">The (defaulted) destructor. </div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html">KLFitter::DetectorSnowmass</a></div><div class="ttdoc">A class for describing of the Snowmass detector. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.h:41</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html">KLFitter::DetectorSnowmass</a></div><div class="ttdoc">A class for describing the Snowmass detector. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.h:37</div></div>
 <div class="ttc" id="class_k_l_fitter_1_1_resolution_base_html"><div class="ttname"><a href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a></div><div class="ttdoc">A base class for describing resolutions. </div><div class="ttdef"><b>Definition:</b> ResolutionBase.h:38</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_af6ed3dfb0e705f24d02fd011ca51b6c7"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#af6ed3dfb0e705f24d02fd011ca51b6c7">KLFitter::DetectorSnowmass::ResEnergyBJet</a></div><div class="ttdeci">ResolutionBase * ResEnergyBJet(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of b-jets. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:87</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_aec7c10dccfc9699d9cf6c9a9d3976d7e"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e">KLFitter::DetectorSnowmass::DetectorSnowmass</a></div><div class="ttdeci">DetectorSnowmass(std::string folder=&quot;&quot;)</div><div class="ttdoc">The default constructor. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:32</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a1f66dd1829e47ddbd38c9c974091401c"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a1f66dd1829e47ddbd38c9c974091401c">KLFitter::DetectorSnowmass::ResMissingET</a></div><div class="ttdeci">ResolutionBase * ResMissingET() override</div><div class="ttdoc">Return the missing ET resolution. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:130</div></div>
-<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a648d49beaf9e3b1ad46e0c99523bb23f"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a648d49beaf9e3b1ad46e0c99523bb23f">KLFitter::DetectorSnowmass::ResEnergyMuon</a></div><div class="ttdeci">ResolutionBase * ResEnergyMuon(double eta=0.) override</div><div class="ttdoc">Return the momentum resolution of muons. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:116</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_aa2d745d421c64b6d74385b3749358bff"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#aa2d745d421c64b6d74385b3749358bff">KLFitter::DetectorSnowmass::ResEnergyMuon</a></div><div class="ttdeci">ResolutionBase * ResEnergyMuon(double eta=0.) override</div><div class="ttdoc">Return the momentum resolution of muons. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:93</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_aec7c10dccfc9699d9cf6c9a9d3976d7e"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e">KLFitter::DetectorSnowmass::DetectorSnowmass</a></div><div class="ttdeci">DetectorSnowmass(std::string folder=&quot;&quot;)</div><div class="ttdoc">The default constructor. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:34</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a5ffb9b11c65da8660b80618a7eeb0c57"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a5ffb9b11c65da8660b80618a7eeb0c57">KLFitter::DetectorSnowmass::ResEnergyBJet</a></div><div class="ttdeci">ResolutionBase * ResEnergyBJet(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of b-jets. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:67</div></div>
+<div class="ttc" id="class_k_l_fitter_1_1_detector_snowmass_html_a7bd0e53e3537805a3fe4d34f2bd2b205"><div class="ttname"><a href="class_k_l_fitter_1_1_detector_snowmass.html#a7bd0e53e3537805a3fe4d34f2bd2b205">KLFitter::DetectorSnowmass::ResEnergyLightJet</a></div><div class="ttdeci">ResolutionBase * ResEnergyLightJet(double eta=0.) override</div><div class="ttdoc">Return the energy resolution of light-jets. </div><div class="ttdef"><b>Definition:</b> DetectorSnowmass.cxx:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

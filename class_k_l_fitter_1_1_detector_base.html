@@ -88,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_k_l_fitter_1_1_detector_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">KLFitter::DetectorBase Class Reference</div>  </div>
@@ -107,23 +107,12 @@ Inheritance diagram for KLFitter::DetectorBase:</div>
   <map id="KLFitter::DetectorBase_map" name="KLFitter::DetectorBase_map">
 <area href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html" title="A class for describing of the ATLAS detector. " alt="KLFitter::DetectorAtlas_7TeV" shape="rect" coords="0,56,175,80"/>
 <area href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html" title="A class for describing of the ATLAS detector. " alt="KLFitter::DetectorAtlas_8TeV" shape="rect" coords="185,56,360,80"/>
-<area href="class_k_l_fitter_1_1_detector_snowmass.html" title="A class for describing of the Snowmass detector. " alt="KLFitter::DetectorSnowmass" shape="rect" coords="370,56,545,80"/>
+<area href="class_k_l_fitter_1_1_detector_snowmass.html" title="A class for describing the Snowmass detector. " alt="KLFitter::DetectorSnowmass" shape="rect" coords="370,56,545,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Enumerators</div></td></tr>
-<tr class="memitem:ad9f70d38acd1ade878a140dcb3222a52"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">BeamCMEnergy</a> { <b>k7TeV</b>, 
-<b>k8TeV</b>, 
-<b>k10TeV</b>
- }</td></tr>
-<tr class="memdesc:ad9f70d38acd1ade878a140dcb3222a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate for beam centre-of-mass energy. <br/></td></tr>
-<tr class="separator:ad9f70d38acd1ade878a140dcb3222a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Constructors and destructors</div></td></tr>
 <tr class="memitem:ac752bd6b52f8198b0bab9adf8aafde58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ac752bd6b52f8198b0bab9adf8aafde58">DetectorBase</a> (std::string folder=&quot;&quot;)</td></tr>
 <tr class="memdesc:ac752bd6b52f8198b0bab9adf8aafde58"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="#ac752bd6b52f8198b0bab9adf8aafde58">More...</a><br/></td></tr>
 <tr class="separator:ac752bd6b52f8198b0bab9adf8aafde58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,89 +154,10 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a40a95b6940d2a5d31a8472de46e77a96"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_k_l_fitter_1_1_resolution_base.html">ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a40a95b6940d2a5d31a8472de46e77a96">ResPhiBJet</a> (double)</td></tr>
 <tr class="memdesc:a40a95b6940d2a5d31a8472de46e77a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the phi resolution of b jets.  <a href="#a40a95b6940d2a5d31a8472de46e77a96">More...</a><br/></td></tr>
 <tr class="separator:a40a95b6940d2a5d31a8472de46e77a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
-<tr class="memitem:a5ebb5c575ee4907db8de327e42464818"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a5ebb5c575ee4907db8de327e42464818">SetResEnergyBJet</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a5ebb5c575ee4907db8de327e42464818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of b jets.  <a href="#a5ebb5c575ee4907db8de327e42464818">More...</a><br/></td></tr>
-<tr class="separator:a5ebb5c575ee4907db8de327e42464818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aae178b337feaa0e14cd264e7f0b78c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a8aae178b337feaa0e14cd264e7f0b78c">SetResEnergyLightJet</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a8aae178b337feaa0e14cd264e7f0b78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of light jets.  <a href="#a8aae178b337feaa0e14cd264e7f0b78c">More...</a><br/></td></tr>
-<tr class="separator:a8aae178b337feaa0e14cd264e7f0b78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a136406a21838f77311a0ea6b9096eb0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a136406a21838f77311a0ea6b9096eb0a">SetResEnergyGluonJet</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a136406a21838f77311a0ea6b9096eb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of gluon jets.  <a href="#a136406a21838f77311a0ea6b9096eb0a">More...</a><br/></td></tr>
-<tr class="separator:a136406a21838f77311a0ea6b9096eb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fed1e7c0d2a9c0e7261a537fc67b94"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a47fed1e7c0d2a9c0e7261a537fc67b94">SetResEnergyElectron</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a47fed1e7c0d2a9c0e7261a537fc67b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of electrons.  <a href="#a47fed1e7c0d2a9c0e7261a537fc67b94">More...</a><br/></td></tr>
-<tr class="separator:a47fed1e7c0d2a9c0e7261a537fc67b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaac8fe6b7fb65a46cb73917fcc35dcf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#aeaac8fe6b7fb65a46cb73917fcc35dcf">SetResEnergyMuon</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:aeaac8fe6b7fb65a46cb73917fcc35dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of muons.  <a href="#aeaac8fe6b7fb65a46cb73917fcc35dcf">More...</a><br/></td></tr>
-<tr class="separator:aeaac8fe6b7fb65a46cb73917fcc35dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4cea0ecbfecc432ea2c8bb9a17751b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a4b4cea0ecbfecc432ea2c8bb9a17751b">SetResEnergyPhoton</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a4b4cea0ecbfecc432ea2c8bb9a17751b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the energy resolution parameterization of photons.  <a href="#a4b4cea0ecbfecc432ea2c8bb9a17751b">More...</a><br/></td></tr>
-<tr class="separator:a4b4cea0ecbfecc432ea2c8bb9a17751b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6553596b06dfed871fa342607f5544e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a6553596b06dfed871fa342607f5544e9">SetResMissingET</a> (<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *res)</td></tr>
-<tr class="memdesc:a6553596b06dfed871fa342607f5544e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the missing ET resolution parameterization.  <a href="#a6553596b06dfed871fa342607f5544e9">More...</a><br/></td></tr>
-<tr class="separator:a6553596b06dfed871fa342607f5544e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d4797904447ff10565b0d831128e160"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a6d4797904447ff10565b0d831128e160">SetBeamCMEnergy</a> (<a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">KLFitter::DetectorBase::BeamCMEnergy</a> beamenergy)</td></tr>
-<tr class="memdesc:a6d4797904447ff10565b0d831128e160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the beam centre-of-mass energy in the current detector.  <a href="#a6d4797904447ff10565b0d831128e160">More...</a><br/></td></tr>
-<tr class="separator:a6d4797904447ff10565b0d831128e160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (misc)</div></td></tr>
 <tr class="memitem:af6466aa442edadcb3ec3f436f6823b67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6466aa442edadcb3ec3f436f6823b67"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Status</b> ()</td></tr>
 <tr class="separator:af6466aa442edadcb3ec3f436f6823b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ba513f61a54ec4ea8e22d1bfb371e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">KLFitter::DetectorBase::BeamCMEnergy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a0ba513f61a54ec4ea8e22d1bfb371e6a">GetBeamCMEnergy</a> ()</td></tr>
-<tr class="memdesc:a0ba513f61a54ec4ea8e22d1bfb371e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the beam centre-of-mass energy in the current detector.  <a href="#a0ba513f61a54ec4ea8e22d1bfb371e6a">More...</a><br/></td></tr>
-<tr class="separator:a0ba513f61a54ec4ea8e22d1bfb371e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ae385b2b29f337cb76e2db252119dd1f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae385b2b29f337cb76e2db252119dd1f5"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ae385b2b29f337cb76e2db252119dd1f5">fResEnergyLightJet</a></td></tr>
-<tr class="memdesc:ae385b2b29f337cb76e2db252119dd1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of light jets. <br/></td></tr>
-<tr class="separator:ae385b2b29f337cb76e2db252119dd1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c53c0d989cf17c36956b214df862783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c53c0d989cf17c36956b214df862783"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a7c53c0d989cf17c36956b214df862783">fResEnergyBJet</a></td></tr>
-<tr class="memdesc:a7c53c0d989cf17c36956b214df862783"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of b jets. <br/></td></tr>
-<tr class="separator:a7c53c0d989cf17c36956b214df862783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac870a51e5cec71a13102eef38e92e540"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac870a51e5cec71a13102eef38e92e540"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ac870a51e5cec71a13102eef38e92e540">fResEnergyGluonJet</a></td></tr>
-<tr class="memdesc:ac870a51e5cec71a13102eef38e92e540"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of gluon jets. <br/></td></tr>
-<tr class="separator:ac870a51e5cec71a13102eef38e92e540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff7b104f51e917400db0d31daef5b3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abff7b104f51e917400db0d31daef5b3c"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#abff7b104f51e917400db0d31daef5b3c">fResEnergyElectron</a></td></tr>
-<tr class="memdesc:abff7b104f51e917400db0d31daef5b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of electrons. <br/></td></tr>
-<tr class="separator:abff7b104f51e917400db0d31daef5b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d0e514711b3f2511bf99953d5f1dbbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d0e514711b3f2511bf99953d5f1dbbc"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a9d0e514711b3f2511bf99953d5f1dbbc">fResEnergyMuon</a></td></tr>
-<tr class="memdesc:a9d0e514711b3f2511bf99953d5f1dbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of muons. <br/></td></tr>
-<tr class="separator:a9d0e514711b3f2511bf99953d5f1dbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc5ec8481b02d1c9ed9ea1915b11a0cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc5ec8481b02d1c9ed9ea1915b11a0cc"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#abc5ec8481b02d1c9ed9ea1915b11a0cc">fResEnergyPhoton</a></td></tr>
-<tr class="memdesc:abc5ec8481b02d1c9ed9ea1915b11a0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The energy resolution of photons. <br/></td></tr>
-<tr class="separator:abc5ec8481b02d1c9ed9ea1915b11a0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd76c5be4e7ca55dfceb588e050a9e54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd76c5be4e7ca55dfceb588e050a9e54"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#acd76c5be4e7ca55dfceb588e050a9e54">fResMissingET</a></td></tr>
-<tr class="memdesc:acd76c5be4e7ca55dfceb588e050a9e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">The missing ET resolution. <br/></td></tr>
-<tr class="separator:acd76c5be4e7ca55dfceb588e050a9e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed20dfe4041e934ac7e4d9dfc645e027"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed20dfe4041e934ac7e4d9dfc645e027"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#aed20dfe4041e934ac7e4d9dfc645e027">fResEtaLightJet</a></td></tr>
-<tr class="memdesc:aed20dfe4041e934ac7e4d9dfc645e027"><td class="mdescLeft">&#160;</td><td class="mdescRight">The eta resolution of light jets. <br/></td></tr>
-<tr class="separator:aed20dfe4041e934ac7e4d9dfc645e027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64272813a77eb65b182c2e9505f4cb69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64272813a77eb65b182c2e9505f4cb69"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a64272813a77eb65b182c2e9505f4cb69">fResEtaBJet</a></td></tr>
-<tr class="memdesc:a64272813a77eb65b182c2e9505f4cb69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The eta resolution of b jets. <br/></td></tr>
-<tr class="separator:a64272813a77eb65b182c2e9505f4cb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c4b1136cd155d1798d79c9066e69c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89c4b1136cd155d1798d79c9066e69c9"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a89c4b1136cd155d1798d79c9066e69c9">fResPhiLightJet</a></td></tr>
-<tr class="memdesc:a89c4b1136cd155d1798d79c9066e69c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The phi resolution of light jets. <br/></td></tr>
-<tr class="separator:a89c4b1136cd155d1798d79c9066e69c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f897529c77f999988bfbc709147b08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70f897529c77f999988bfbc709147b08"></a>
-<a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#a70f897529c77f999988bfbc709147b08">fResPhiBJet</a></td></tr>
-<tr class="memdesc:a70f897529c77f999988bfbc709147b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">The phi resolution of b jets. <br/></td></tr>
-<tr class="separator:a70f897529c77f999988bfbc709147b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaebe282a5c60ad3651fb630f711528c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeaebe282a5c60ad3651fb630f711528c"></a>
-<a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">KLFitter::DetectorBase::BeamCMEnergy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#aeaebe282a5c60ad3651fb630f711528c">fBeamCMEnergy</a></td></tr>
-<tr class="memdesc:aeaebe282a5c60ad3651fb630f711528c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current beam centre-of-mass energy in the detector. <br/></td></tr>
-<tr class="separator:aeaebe282a5c60ad3651fb630f711528c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for describing detectors. </p>
@@ -286,32 +196,6 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0ba513f61a54ec4ea8e22d1bfb371e6a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">KLFitter::DetectorBase::BeamCMEnergy</a> KLFitter::DetectorBase::GetBeamCMEnergy </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the beam centre-of-mass energy in the current detector. </p>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a4da0b4504ae218e631b1617e49dfb723"></a>
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +227,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#afaa465c0369ccb6da7e8185e7ef990a8">KLFitter::DetectorAtlas_7TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a8206114394f0c607d5a53ce1a6db386f">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#af6ed3dfb0e705f24d02fd011ca51b6c7">KLFitter::DetectorSnowmass</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a072759608be9d6c8309b09f5bef3c749">KLFitter::DetectorAtlas_8TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a5ffb9b11c65da8660b80618a7eeb0c57">KLFitter::DetectorSnowmass</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#afa095d4fb4a1d580b8122a8fca452653">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -378,7 +262,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a62e8db17cd7fbe586ce0740ee9953c4b">KLFitter::DetectorAtlas_7TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a37b1ff3c7e092d9afda3917fccc124bd">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#ac3d729648465e4bd01eb2347e699b299">KLFitter::DetectorSnowmass</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a5d2a320be4025db9f82d5839b7826a71">KLFitter::DetectorAtlas_8TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a259b22648b9a44c9a97d02a9bc55193f">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a569051aa0d1ff3e94db03d0ae1ba3880">KLFitter::DetectorSnowmass</a>.</p>
 
 </div>
 </div>
@@ -413,7 +297,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a19dab35f7d940511b0b8fc69350ed27f">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#aa2756ddb40364f866616d68d20dcd35a">KLFitter::DetectorAtlas_8TeV</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a55d0ad9c329ab84c955947fcad84d38c">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#aff1ea0b3328e191e34c6a3de3fadba2d">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -448,7 +332,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a28357e911569856dcfab40b65faa0cf9">KLFitter::DetectorAtlas_7TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#ae31fa36a8f6a0eca0f740b4fa4227bf8">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#afd84fd09b5d5e8d5e99fb3cc7c1c2a38">KLFitter::DetectorSnowmass</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#ab24f9418161e062a25dfb1aa3d3a1718">KLFitter::DetectorAtlas_8TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a7bd0e53e3537805a3fe4d34f2bd2b205">KLFitter::DetectorSnowmass</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a58af2846da7f6a2047a0299ee6e9e38d">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -483,7 +367,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a892c399706959f0ef8e4c05c891bbb04">KLFitter::DetectorAtlas_7TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a746252da0083402d98ffefecd8847fcc">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a648d49beaf9e3b1ad46e0c99523bb23f">KLFitter::DetectorSnowmass</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#ae2b122edb7ac8f56be198d76d75a30da">KLFitter::DetectorAtlas_8TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a3c18cbc9924ff86549560b5bbc829fa7">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#aa2d745d421c64b6d74385b3749358bff">KLFitter::DetectorSnowmass</a>.</p>
 
 </div>
 </div>
@@ -518,7 +402,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the energy resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a87eb68d592a8d58776d88e6130323294">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a8eeaa21e023b63a2778cf66b91a8b191">KLFitter::DetectorAtlas_8TeV</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#afba5e55e3e83dd2607a5043d3ec1052f">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#ac48eff70f4c7ec80eb7ef04596fc5897">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -553,7 +437,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the eta resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#afb461473278e886083079b3259f985b1">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a7bd213d2338c2ab499c2866893475b29">KLFitter::DetectorAtlas_8TeV</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a45aa8e6e78fc0e3936aea67779d052f0">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a72db7c64ab61ef4179cf2e15fbd1c273">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -588,7 +472,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the eta resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a8f90eab045ca8cf1fcba5e772d0c94b7">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a0eb1e81408ec85bb14d7b6f15f93bb00">KLFitter::DetectorAtlas_8TeV</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a8344f38b462059d770c0703adc4418b0">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a275a1d376a521863f15a8e6bf147a8fb">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -616,7 +500,7 @@ Protected Attributes</h2></td></tr>
 <p>Return the missing ET resolution. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the missing ET resolution. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a6dc73b1b8529fefba3f00fbf10995b49">KLFitter::DetectorAtlas_7TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a68162bc3c9c7c57df872cf06b4e9de8f">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a1f66dd1829e47ddbd38c9c974091401c">KLFitter::DetectorSnowmass</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#abaf721644210b2c33a8208888f671bda">KLFitter::DetectorAtlas_8TeV</a>, <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#aaec43b7e44ccbbbd5824057a75580a43">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_snowmass.html#a7c20388af98bc21cbc2b55a2fb07f4d4">KLFitter::DetectorSnowmass</a>.</p>
 
 </div>
 </div>
@@ -651,7 +535,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the phi resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a7aa56214fefb976b8e893e0da90c4c59">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a2cfa3762952e020985a56a10183acbc8">KLFitter::DetectorAtlas_8TeV</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a381a633104f26589338cff8f7bb3bf65">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a6be6c270113edcdf3478d79bf745075d">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
@@ -686,215 +570,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the phi resolution object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#aa726fa894da0bae4836842902d0bdadd">KLFitter::DetectorAtlas_7TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#ad6c3cb187b2d107a84bebace234e0b63">KLFitter::DetectorAtlas_8TeV</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6d4797904447ff10565b0d831128e160"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetBeamCMEnergy </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_detector_base.html#ad9f70d38acd1ade878a140dcb3222a52">KLFitter::DetectorBase::BeamCMEnergy</a>&#160;</td>
-          <td class="paramname"><em>beamenergy</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the beam centre-of-mass energy in the current detector. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">beamenergy</td><td>The beam energy. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a5ebb5c575ee4907db8de327e42464818"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyBJet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of b jets. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a47fed1e7c0d2a9c0e7261a537fc67b94"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyElectron </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of electrons. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a136406a21838f77311a0ea6b9096eb0a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyGluonJet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of gluon jets. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8aae178b337feaa0e14cd264e7f0b78c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyLightJet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of light jets. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aeaac8fe6b7fb65a46cb73917fcc35dcf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyMuon </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of muons. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a4b4cea0ecbfecc432ea2c8bb9a17751b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResEnergyPhoton </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the energy resolution parameterization of photons. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a6553596b06dfed871fa342607f5544e9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int KLFitter::DetectorBase::SetResMissingET </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html">KLFitter::ResolutionBase</a> *&#160;</td>
-          <td class="paramname"><em>res</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the missing ET resolution parameterization. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>A pointer to the resolution object. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a0a949452f3ed37641a440f0ae2ddf47d">KLFitter::DetectorAtlas_8TeV</a>, and <a class="el" href="class_k_l_fitter_1_1_detector_atlas__7_te_v.html#a2abdd923de97af979db398cce9d1887d">KLFitter::DetectorAtlas_7TeV</a>.</p>
 
 </div>
 </div>
