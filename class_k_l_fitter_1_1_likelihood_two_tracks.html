@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">KLFitter
-   &#160;<span id="projectnumber">v1.1.1</span>
+   &#160;<span id="projectnumber">v1.2.0</span>
    </div>
    <div id="projectbrief">Documentation of the KLFitter library -- The Kinematic Likelihood Fitter</div>
   </td>
@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A class implementing a two track likelihood.  
+<p>This class implements a likelihood for the reconstruction of a particle decaying to two (oppositely) charged particles producing tracks in the detector.  
  <a href="class_k_l_fitter_1_1_likelihood_two_tracks.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_likelihood_two_tracks_8h_source.html">LikelihoodTwoTracks.h</a>&gt;</code></p>
@@ -506,7 +506,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="separator:a65ac2daaffde02d2cac7abb8309df1e5 inherit pro_attribs_class_k_l_fitter_1_1_likelihood_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class implementing a two track likelihood. </p>
+<div class="textblock"><p>This class implements a likelihood for the reconstruction of a particle decaying to two (oppositely) charged particles producing tracks in the detector. </p>
+<p>Per track, it uses the four-vector (usually constructed from phi, theta, and q/p assuming a charge of +/- 1 and pion/kaon mass) as well as the covariance matrix of the variables phi, theta, and q/p as parameters. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a0fa513e8b194432cb4073b1c66a0fc0f"></a>
 <div class="memitem">
