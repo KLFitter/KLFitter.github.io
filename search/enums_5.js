@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trueflavortype',['TrueFlavorType',['../class_k_l_fitter_1_1_particles.html#a794f7bfbff6414f234a7b0ab3374c3d6',1,'KLFitter::Particles']]]
+  ['resolutiontype',['ResolutionType',['../namespace_k_l_fitter.html#a74970551b8c64419b1aea322f23481c4',1,'KLFitter']]]
 ];

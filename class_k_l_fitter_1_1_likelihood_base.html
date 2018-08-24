@@ -182,7 +182,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>FlagIntegrate</b> ()<
 <tr class="memitem:a1d1e35c2b3f950c1923e0c861329ee97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a1d1e35c2b3f950c1923e0c861329ee97">SetPhysicsConstants</a> (<a class="el" href="class_k_l_fitter_1_1_physics_constants.html">KLFitter::PhysicsConstants</a> *physicsconstants)</td></tr>
 <tr class="memdesc:a1d1e35c2b3f950c1923e0c861329ee97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the physics constants.  <a href="#a1d1e35c2b3f950c1923e0c861329ee97">More...</a><br/></td></tr>
 <tr class="separator:a1d1e35c2b3f950c1923e0c861329ee97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae86e99ef4becc0330ab6fb9adc4ea24a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#ae86e99ef4becc0330ab6fb9adc4ea24a">SetDetector</a> (<a class="el" href="class_k_l_fitter_1_1_detector_base.html">KLFitter::DetectorBase</a> **detector)</td></tr>
+<tr class="memitem:ae86e99ef4becc0330ab6fb9adc4ea24a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#ae86e99ef4becc0330ab6fb9adc4ea24a">SetDetector</a> (<a class="el" href="class_k_l_fitter_1_1_detector_base.html">KLFitter::DetectorBase</a> **detector)</td></tr>
 <tr class="memdesc:ae86e99ef4becc0330ab6fb9adc4ea24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the detector.  <a href="#ae86e99ef4becc0330ab6fb9adc4ea24a">More...</a><br/></td></tr>
 <tr class="separator:ae86e99ef4becc0330ab6fb9adc4ea24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70df370011680353d549554adc80e75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#af70df370011680353d549554adc80e75">SetParticlesPermuted</a> (<a class="el" href="class_k_l_fitter_1_1_particles.html">KLFitter::Particles</a> **particles)</td></tr>
@@ -240,6 +240,9 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a900d0c8d9bb700f08f5b6125b54c0113">PropagateBTaggingInformation</a> ()</td></tr>
 <tr class="memdesc:a900d0c8d9bb700f08f5b6125b54c0113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate the b-tagging information from the permuted (measured) particles to the model particles. <br/></td></tr>
 <tr class="separator:a900d0c8d9bb700f08f5b6125b54c0113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d5b0ceb3c114321b8169411e27ecf29"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a6d5b0ceb3c114321b8169411e27ecf29">RequestResolutionFunctions</a> ()=0</td></tr>
+<tr class="memdesc:a6d5b0ceb3c114321b8169411e27ecf29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request necessary resolution functions from the detector.  <a href="#a6d5b0ceb3c114321b8169411e27ecf29">More...</a><br/></td></tr>
+<tr class="separator:a6d5b0ceb3c114321b8169411e27ecf29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (BAT)</div></td></tr>
 <tr class="memitem:afd90deb65789c3393e95b3a9df90b14a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd90deb65789c3393e95b3a9df90b14a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afd90deb65789c3393e95b3a9df90b14a">DefineParameters</a> ()=0</td></tr>
@@ -502,7 +505,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <p>Define the model particles. </p>
 <dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a8ccf6671c27f696253b5caf24126e86f">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a5feed7c375bb53815162df125a14cfc2">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#ab849627f274a82f9a3d7000bd0f8be31">KLFitter::LikelihoodTopLeptonJetsUDSep</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ae77aa147a7d6b1c784cb076a4b29a4e6">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a95d4f41c390472268856357242668ed8">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a301631b2f2475023bfe3c612d50f0d64">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a4395c851b3d98a2a2203c8107b34ff04">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a7677f6ab7d940304c72debd9b2d32314">KLFitter::LikelihoodTopAllHadronic</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a10766fd6cbeed875e18cc8771934372d">KLFitter::LikelihoodTwoTracks</a>.</p>
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a8ccf6671c27f696253b5caf24126e86f">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a5feed7c375bb53815162df125a14cfc2">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#ae77aa147a7d6b1c784cb076a4b29a4e6">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#ab849627f274a82f9a3d7000bd0f8be31">KLFitter::LikelihoodTopLeptonJetsUDSep</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a95d4f41c390472268856357242668ed8">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a301631b2f2475023bfe3c612d50f0d64">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a4395c851b3d98a2a2203c8107b34ff04">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a7677f6ab7d940304c72debd9b2d32314">KLFitter::LikelihoodTopAllHadronic</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a10766fd6cbeed875e18cc8771934372d">KLFitter::LikelihoodTwoTracks</a>.</p>
 
 </div>
 </div>
@@ -940,7 +943,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector with the components of the logarithm of the prior probability. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a6d49afe8f1a9c748bc75bc5c8815df7c">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a08500fe872fde8e6120fcaa826925d1a">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a4d3a38dff643d2bb0339c526835b5011">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a4269b512d10254a169ea5c8ecdd30bc5">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a4ac9fa9bb8d851ceeb00e48b2dcc10a7">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a3db37eb4d1d820eccbdb247e6fefa53d">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a9e93b62e61d08f529873a4d577259a7f">KLFitter::LikelihoodTopAllHadronic</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a8e7e454a6ab129ba4fb33232ee119a10">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a6c824519ae7d06b4b7076cb2e2e53d4d">KLFitter::LikelihoodTwoTracks</a>.</p>
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a6d49afe8f1a9c748bc75bc5c8815df7c">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a08500fe872fde8e6120fcaa826925d1a">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a4d3a38dff643d2bb0339c526835b5011">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a4ac9fa9bb8d851ceeb00e48b2dcc10a7">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a4269b512d10254a169ea5c8ecdd30bc5">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a3db37eb4d1d820eccbdb247e6fefa53d">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a9e93b62e61d08f529873a4d577259a7f">KLFitter::LikelihoodTopAllHadronic</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a8e7e454a6ab129ba4fb33232ee119a10">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a6c824519ae7d06b4b7076cb2e2e53d4d">KLFitter::LikelihoodTwoTracks</a>.</p>
 
 </div>
 </div>
@@ -1203,7 +1206,35 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <p>Remove invariant particle permutations. </p>
 <dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a6adf11eb8b7cb1a680e822b50429a7fe">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#ab16c3c4201dcf20096bca3ac5f2ee010">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2280e413d44045cd9a7cd762ace148af">KLFitter::LikelihoodTopLeptonJetsUDSep</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a2c966d43974e9f13e367ca332278e6c5">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#af64acd61f5fe3cb423d90e54d76d7bae">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a19f8004cd3523144c3ddb01aeeeb7cb8">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#aa3d0303afac19286c04631ab7959bd21">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a8247fc30c8e390c310ae84a2375cf7d3">KLFitter::LikelihoodTopAllHadronic</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a1885868bdd540e7abe857fb7f659df6d">KLFitter::LikelihoodTwoTracks</a>.</p>
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a6adf11eb8b7cb1a680e822b50429a7fe">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#ab16c3c4201dcf20096bca3ac5f2ee010">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#a2c966d43974e9f13e367ca332278e6c5">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2280e413d44045cd9a7cd762ace148af">KLFitter::LikelihoodTopLeptonJetsUDSep</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#af64acd61f5fe3cb423d90e54d76d7bae">KLFitter::LikelihoodTTHLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a19f8004cd3523144c3ddb01aeeeb7cb8">KLFitter::BoostedLikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#aa3d0303afac19286c04631ab7959bd21">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a8247fc30c8e390c310ae84a2375cf7d3">KLFitter::LikelihoodTopAllHadronic</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a1885868bdd540e7abe857fb7f659df6d">KLFitter::LikelihoodTwoTracks</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6d5b0ceb3c114321b8169411e27ecf29"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void KLFitter::LikelihoodBase::RequestResolutionFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Request necessary resolution functions from the detector. </p>
+<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#aaaac27482f09d26d7b03c04e19ba99bc">KLFitter::LikelihoodTopLeptonJets</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets___jet_angles.html#a8e93bcfb8e73b45abce4a2bc1778e0ec">KLFitter::LikelihoodTopLeptonJets_JetAngles</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_two_tracks.html#a59a803582f34db5f6afc433e26a7bb46">KLFitter::LikelihoodTwoTracks</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a17d06a9802e1d52e224cb559e1aad071">KLFitter::LikelihoodSgTopWtLJ</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#a0144d4b713b0f7cdaa24202aed7be1fd">KLFitter::LikelihoodTTZTrilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_top_dilepton.html#a56ec5782f689df7a95d6878bf6f61381">KLFitter::LikelihoodTopDilepton</a>, <a class="el" href="class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a48cf22b5f58f49871e2c97d68bb56abf">KLFitter::LikelihoodTTHLeptonJets</a>, and <a class="el" href="class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#ac3a8b185afc9ce83bb42edc1ea26c042">KLFitter::LikelihoodTopAllHadronic</a>.</p>
 
 </div>
 </div>
@@ -1261,6 +1292,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <a class="anchor" id="ae86e99ef4becc0330ab6fb9adc4ea24a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int KLFitter::LikelihoodBase::SetDetector </td>
@@ -1270,6 +1304,11 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the detector. </p>

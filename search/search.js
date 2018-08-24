@@ -11,9 +11,9 @@ var indexSectionsWithContent =
   1: "bdflnpr",
   2: "k",
   3: "abcdefgijlmnoprstu~",
-  4: "bdefhlmns",
-  5: "bcklpt",
-  6: "kp"
+  4: "bdefhlmnrs",
+  5: "bcklprt",
+  6: "ekmp"
 };
 
 var indexSectionNames =
