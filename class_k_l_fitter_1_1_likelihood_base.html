@@ -248,6 +248,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#afd90deb65789c3393e95b3a9df90b14a">DefineParameters</a> ()=0</td></tr>
 <tr class="memdesc:afd90deb65789c3393e95b3a9df90b14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the parameters of the fit. <br/></td></tr>
 <tr class="separator:afd90deb65789c3393e95b3a9df90b14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d477b2db830d751c2549b0e59edf6e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a64d477b2db830d751c2549b0e59edf6e">LogAPrioriProbability</a> (const std::vector&lt; double &gt; &amp;parameters) override</td></tr>
+<tr class="memdesc:a64d477b2db830d751c2549b0e59edf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The prior probability definition, overloaded from BCModel.  <a href="#a64d477b2db830d751c2549b0e59edf6e">More...</a><br/></td></tr>
+<tr class="separator:a64d477b2db830d751c2549b0e59edf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09725bf96cef14aaf895cff88d933c11"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_likelihood_base.html#a09725bf96cef14aaf895cff88d933c11">LogLikelihood</a> (const std::vector&lt; double &gt; &amp;parameters)=0</td></tr>
 <tr class="memdesc:a09725bf96cef14aaf895cff88d933c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">The posterior probability definition, overloaded from BCModel.  <a href="#a09725bf96cef14aaf895cff88d933c11">More...</a><br/></td></tr>
 <tr class="separator:a09725bf96cef14aaf895cff88d933c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -817,6 +820,39 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <dl class="section return"><dt>Returns</dt><dd>Permutation of the invariant partner, -1 if there is no one. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_likelihood_top_lepton_jets_u_d_sep.html#a2429bbbcdbb10c0cae9abdfd88cbcb08">KLFitter::LikelihoodTopLeptonJetsUDSep</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64d477b2db830d751c2549b0e59edf6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double KLFitter::LikelihoodBase::LogAPrioriProbability </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The prior probability definition, overloaded from BCModel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameters</td><td>A vector of parameters (double values). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The logarithm of the prior probability. </dd></dl>
 
 </div>
 </div>
