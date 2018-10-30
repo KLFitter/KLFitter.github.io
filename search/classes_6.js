@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['rescrystalballbase',['ResCrystalBallBase',['../class_k_l_fitter_1_1_res_crystal_ball_base.html',1,'KLFitter']]],
+  ['rescrystalballjets',['ResCrystalBallJets',['../class_k_l_fitter_1_1_res_crystal_ball_jets.html',1,'KLFitter']]],
   ['resdoublegaussbase',['ResDoubleGaussBase',['../class_k_l_fitter_1_1_res_double_gauss_base.html',1,'KLFitter']]],
   ['resdoublegausse_5f1',['ResDoubleGaussE_1',['../class_k_l_fitter_1_1_res_double_gauss_e__1.html',1,'KLFitter']]],
   ['resdoublegausse_5f2',['ResDoubleGaussE_2',['../class_k_l_fitter_1_1_res_double_gauss_e__2.html',1,'KLFitter']]],
@@ -11,5 +13,10 @@ var searchData=
   ['resgauss_5fmet',['ResGauss_MET',['../class_k_l_fitter_1_1_res_gauss___m_e_t.html',1,'KLFitter']]],
   ['resgausse',['ResGaussE',['../class_k_l_fitter_1_1_res_gauss_e.html',1,'KLFitter']]],
   ['resgausspt',['ResGaussPt',['../class_k_l_fitter_1_1_res_gauss_pt.html',1,'KLFitter']]],
-  ['resolutionbase',['ResolutionBase',['../class_k_l_fitter_1_1_resolution_base.html',1,'KLFitter']]]
+  ['resolutionbase',['ResolutionBase',['../class_k_l_fitter_1_1_resolution_base.html',1,'KLFitter']]],
+  ['ressinglegaussbase',['ResSingleGaussBase',['../class_k_l_fitter_1_1_res_single_gauss_base.html',1,'KLFitter']]],
+  ['ressinglegausse',['ResSingleGaussE',['../class_k_l_fitter_1_1_res_single_gauss_e.html',1,'KLFitter']]],
+  ['ressinglegausslinearbase',['ResSingleGaussLinearBase',['../class_k_l_fitter_1_1_res_single_gauss_linear_base.html',1,'KLFitter']]],
+  ['ressinglegaussmet',['ResSingleGaussMET',['../class_k_l_fitter_1_1_res_single_gauss_m_e_t.html',1,'KLFitter']]],
+  ['ressinglegausspt',['ResSingleGaussPt',['../class_k_l_fitter_1_1_res_single_gauss_pt.html',1,'KLFitter']]]
 ];

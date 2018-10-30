@@ -8,9 +8,12 @@ var searchData=
   ['calculateneutrinopzsolutions',['CalculateNeutrinoPzSolutions',['../class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#a6336247e3bf985bd8a7d925ae8d59ead',1,'KLFitter::BoostedLikelihoodTopLeptonJets::CalculateNeutrinoPzSolutions()'],['../class_k_l_fitter_1_1_likelihood_top_lepton_jets.html#afe2ac2cfd0ca232fb4ba89398c2e49dc',1,'KLFitter::LikelihoodTopLeptonJets::CalculateNeutrinoPzSolutions()'],['../class_k_l_fitter_1_1_likelihood_t_t_h_lepton_jets.html#a6fc2b4f4487d1ed4a396a84534a3730a',1,'KLFitter::LikelihoodTTHLeptonJets::CalculateNeutrinoPzSolutions()'],['../class_k_l_fitter_1_1_likelihood_t_t_z_trilepton.html#aa71b1f9600bba758eab679dbbdd8aa4a',1,'KLFitter::LikelihoodTTZTrilepton::CalculateNeutrinoPzSolutions()']]],
   ['calculateweight',['CalculateWeight',['../class_k_l_fitter_1_1_likelihood_top_dilepton.html#a22b8d33a6831366053aa1719e809eec9',1,'KLFitter::LikelihoodTopDilepton']]],
   ['calculateweightperm',['CalculateWeightPerm',['../class_k_l_fitter_1_1_likelihood_top_dilepton.html#adde1c4d77724f5e1578fa35398654752',1,'KLFitter::LikelihoodTopDilepton']]],
+  ['checkcrystalballsanity',['CheckCrystalBallSanity',['../class_k_l_fitter_1_1_res_crystal_ball_base.html#a95f76cf6d7d180f41a150f46e104e8fd',1,'KLFitter::ResCrystalBallBase']]],
   ['checkdoublegaussiansanity',['CheckDoubleGaussianSanity',['../class_k_l_fitter_1_1_res_double_gauss_base.html#a06767b1f0bb95a534e259ffc37dfd12c',1,'KLFitter::ResDoubleGaussBase']]],
   ['checkindex',['CheckIndex',['../class_k_l_fitter_1_1_particles.html#afd3c375093f1d007fab9c6c68b0663a2',1,'KLFitter::Particles']]],
+  ['checksinglegaussiansanity',['CheckSingleGaussianSanity',['../class_k_l_fitter_1_1_res_single_gauss_base.html#a88c86c9dee7f48ac478837c21713f84e',1,'KLFitter::ResSingleGaussBase::CheckSingleGaussianSanity()'],['../class_k_l_fitter_1_1_res_single_gauss_linear_base.html#a2ea9a4c991b65182e825a6d7a71e27d3',1,'KLFitter::ResSingleGaussLinearBase::CheckSingleGaussianSanity()']]],
   ['convergencestatus',['ConvergenceStatus',['../class_k_l_fitter_1_1_fitter.html#ad438757ea331ced65373a22fa90d163c',1,'KLFitter::Fitter']]],
   ['createpermutations',['CreatePermutations',['../class_k_l_fitter_1_1_permutations.html#adb126781eec4ef27ac8b100302ba51d4',1,'KLFitter::Permutations']]],
-  ['createsubtable',['CreateSubTable',['../class_k_l_fitter_1_1_permutations.html#a858ea2b06c1c5e75e8cd8119080be146',1,'KLFitter::Permutations']]]
+  ['createsubtable',['CreateSubTable',['../class_k_l_fitter_1_1_permutations.html#a858ea2b06c1c5e75e8cd8119080be146',1,'KLFitter::Permutations']]],
+  ['crystalballfunction',['CrystalBallFunction',['../class_k_l_fitter_1_1_res_crystal_ball_base.html#a2da5c7e349aabcd00b65727877b891bf',1,'KLFitter::ResCrystalBallBase']]]
 ];

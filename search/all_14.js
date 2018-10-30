@@ -3,6 +3,7 @@ var searchData=
   ['_7eboostedlikelihoodtopleptonjets',['~BoostedLikelihoodTopLeptonJets',['../class_k_l_fitter_1_1_boosted_likelihood_top_lepton_jets.html#ad0c75a5b60a0b3468fe5d5d56a9860e1',1,'KLFitter::BoostedLikelihoodTopLeptonJets']]],
   ['_7edetectoratlas_5f7tev',['~DetectorAtlas_7TeV',['../class_k_l_fitter_1_1_detector_atlas__7_te_v.html#aff3a2f88831b544db4746dc7c719cabb',1,'KLFitter::DetectorAtlas_7TeV']]],
   ['_7edetectoratlas_5f8tev',['~DetectorAtlas_8TeV',['../class_k_l_fitter_1_1_detector_atlas__8_te_v.html#ac8f8bee0d0ec64f708650cc38d2c1944',1,'KLFitter::DetectorAtlas_8TeV']]],
+  ['_7edetectoratlas_5fcrystalball',['~DetectorAtlas_CrystalBall',['../class_k_l_fitter_1_1_detector_atlas___crystal_ball.html#a1a4890a2c454dcdb51b7a1daf79808c1',1,'KLFitter::DetectorAtlas_CrystalBall']]],
   ['_7edetectorbase',['~DetectorBase',['../class_k_l_fitter_1_1_detector_base.html#acf8f122ec8275f940be7e4b2fb14f34f',1,'KLFitter::DetectorBase']]],
   ['_7edetectorsnowmass',['~DetectorSnowmass',['../class_k_l_fitter_1_1_detector_snowmass.html#a9bc2bf9bf6e67eb65b61d5d4c8746333',1,'KLFitter::DetectorSnowmass']]],
   ['_7efitter',['~Fitter',['../class_k_l_fitter_1_1_fitter.html#ae5b325ede007dab30f340f2632c943fb',1,'KLFitter::Fitter']]],
@@ -20,6 +21,8 @@ var searchData=
   ['_7eparticles',['~Particles',['../class_k_l_fitter_1_1_particles.html#afff97e0cc069a26e67875aea5b5d02a0',1,'KLFitter::Particles']]],
   ['_7epermutations',['~Permutations',['../class_k_l_fitter_1_1_permutations.html#a5bd9eca0d6ab9a4281d574b5d59b4b78',1,'KLFitter::Permutations']]],
   ['_7ephysicsconstants',['~PhysicsConstants',['../class_k_l_fitter_1_1_physics_constants.html#a6e9740a1b6f82715ea2a883508ffe013',1,'KLFitter::PhysicsConstants']]],
+  ['_7erescrystalballbase',['~ResCrystalBallBase',['../class_k_l_fitter_1_1_res_crystal_ball_base.html#ab96bfb06fbe91193f5c53048b142bcaf',1,'KLFitter::ResCrystalBallBase']]],
+  ['_7erescrystalballjets',['~ResCrystalBallJets',['../class_k_l_fitter_1_1_res_crystal_ball_jets.html#a1988572c168cde8f5254926e81c20546',1,'KLFitter::ResCrystalBallJets']]],
   ['_7eresdoublegaussbase',['~ResDoubleGaussBase',['../class_k_l_fitter_1_1_res_double_gauss_base.html#a9cdb2926f60e29c2ab55cdac980af02e',1,'KLFitter::ResDoubleGaussBase']]],
   ['_7eresdoublegausse_5f1',['~ResDoubleGaussE_1',['../class_k_l_fitter_1_1_res_double_gauss_e__1.html#acd34d6dfe5fce34eaee5cdd756914aa5',1,'KLFitter::ResDoubleGaussE_1']]],
   ['_7eresdoublegausse_5f2',['~ResDoubleGaussE_2',['../class_k_l_fitter_1_1_res_double_gauss_e__2.html#aaf17b6aed52f3f65254d7ec61914ba55',1,'KLFitter::ResDoubleGaussE_2']]],
@@ -31,5 +34,10 @@ var searchData=
   ['_7eresgauss_5fmet',['~ResGauss_MET',['../class_k_l_fitter_1_1_res_gauss___m_e_t.html#adab946d5943bae9bcd2a3bfc49aa09b2',1,'KLFitter::ResGauss_MET']]],
   ['_7eresgausse',['~ResGaussE',['../class_k_l_fitter_1_1_res_gauss_e.html#a0e5d8e0f26c1afb1eda67cff755160cd',1,'KLFitter::ResGaussE']]],
   ['_7eresgausspt',['~ResGaussPt',['../class_k_l_fitter_1_1_res_gauss_pt.html#ac28c1c47c20b5d6cfba1fa4b2c955c8a',1,'KLFitter::ResGaussPt']]],
-  ['_7eresolutionbase',['~ResolutionBase',['../class_k_l_fitter_1_1_resolution_base.html#aa24cd7c2962b6dfe66e4780d46f33adc',1,'KLFitter::ResolutionBase']]]
+  ['_7eresolutionbase',['~ResolutionBase',['../class_k_l_fitter_1_1_resolution_base.html#aa24cd7c2962b6dfe66e4780d46f33adc',1,'KLFitter::ResolutionBase']]],
+  ['_7eressinglegaussbase',['~ResSingleGaussBase',['../class_k_l_fitter_1_1_res_single_gauss_base.html#a2ef164fbfe58c52ab2477fe2fd0a3047',1,'KLFitter::ResSingleGaussBase']]],
+  ['_7eressinglegausse',['~ResSingleGaussE',['../class_k_l_fitter_1_1_res_single_gauss_e.html#a70c7f647e95f170f5f71675420b36af8',1,'KLFitter::ResSingleGaussE']]],
+  ['_7eressinglegausslinearbase',['~ResSingleGaussLinearBase',['../class_k_l_fitter_1_1_res_single_gauss_linear_base.html#a18658553958cb23305118b06a06ac200',1,'KLFitter::ResSingleGaussLinearBase']]],
+  ['_7eressinglegaussmet',['~ResSingleGaussMET',['../class_k_l_fitter_1_1_res_single_gauss_m_e_t.html#af17898efeb16d3f45c764527a4ac9af8',1,'KLFitter::ResSingleGaussMET']]],
+  ['_7eressinglegausspt',['~ResSingleGaussPt',['../class_k_l_fitter_1_1_res_single_gauss_pt.html#ae91497a1a8c3c68b58c9cccce289a155',1,'KLFitter::ResSingleGaussPt']]]
 ];

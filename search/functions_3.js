@@ -7,6 +7,7 @@ var searchData=
   ['detector',['Detector',['../class_k_l_fitter_1_1_fitter.html#ae6c03601da9e45a72d547a77d2c9d541',1,'KLFitter::Fitter::Detector()'],['../class_k_l_fitter_1_1_likelihood_base.html#aca155e2e72be8a3781a2ece1e0446067',1,'KLFitter::LikelihoodBase::Detector()']]],
   ['detectoratlas_5f7tev',['DetectorAtlas_7TeV',['../class_k_l_fitter_1_1_detector_atlas__7_te_v.html#af7b1c7c6c8d38b66d39e7c1f5edfc882',1,'KLFitter::DetectorAtlas_7TeV']]],
   ['detectoratlas_5f8tev',['DetectorAtlas_8TeV',['../class_k_l_fitter_1_1_detector_atlas__8_te_v.html#a54ef5a4d3f8bcd610f499dc549585b56',1,'KLFitter::DetectorAtlas_8TeV']]],
+  ['detectoratlas_5fcrystalball',['DetectorAtlas_CrystalBall',['../class_k_l_fitter_1_1_detector_atlas___crystal_ball.html#a46fd8defdadbdb26ab877b5f38d2a5d4',1,'KLFitter::DetectorAtlas_CrystalBall']]],
   ['detectorbase',['DetectorBase',['../class_k_l_fitter_1_1_detector_base.html#ac752bd6b52f8198b0bab9adf8aafde58',1,'KLFitter::DetectorBase']]],
   ['detectorsnowmass',['DetectorSnowmass',['../class_k_l_fitter_1_1_detector_snowmass.html#aec7c10dccfc9699d9cf6c9a9d3976d7e',1,'KLFitter::DetectorSnowmass']]],
   ['deteta',['DetEta',['../class_k_l_fitter_1_1_particles.html#a4cd193cbe6d54f1c55bb046f68e7f7eb',1,'KLFitter::Particles']]],
