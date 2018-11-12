@@ -129,9 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9082de635f55f85e4ed8e0c15e09a94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#af9082de635f55f85e4ed8e0c15e09a94">GetSigma</a> (double par) override</td></tr>
 <tr class="memdesc:af9082de635f55f85e4ed8e0c15e09a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the width of the TF depending on the value of energy x.  <a href="#af9082de635f55f85e4ed8e0c15e09a94">More...</a><br/></td></tr>
 <tr class="separator:af9082de635f55f85e4ed8e0c15e09a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab43390603cb410970465a2bfb5331885"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#ab43390603cb410970465a2bfb5331885">p</a> (double x, double xmeas, bool *good, double par=0) override</td></tr>
-<tr class="memdesc:ab43390603cb410970465a2bfb5331885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#ab43390603cb410970465a2bfb5331885">More...</a><br/></td></tr>
-<tr class="separator:ab43390603cb410970465a2bfb5331885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39654f4efc69681e3d670d09d52e3bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#ae39654f4efc69681e3d670d09d52e3bd">logp</a> (double x, double xmeas, bool *good, double par=0) override</td></tr>
+<tr class="memdesc:ae39654f4efc69681e3d670d09d52e3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#ae39654f4efc69681e3d670d09d52e3bd">More...</a><br/></td></tr>
+<tr class="separator:ae39654f4efc69681e3d670d09d52e3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
 <tr class="memitem:a682acb79c9370e48d71ee6761cb8ec6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#a682acb79c9370e48d71ee6761cb8ec6f">SetSigma</a> (double sigma)</td></tr>
 <tr class="memdesc:a682acb79c9370e48d71ee6761cb8ec6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width of the Gaussian.  <a href="#a682acb79c9370e48d71ee6761cb8ec6f">More...</a><br/></td></tr>
@@ -284,7 +284,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="ab43390603cb410970465a2bfb5331885"></a>
+<a class="anchor" id="ae39654f4efc69681e3d670d09d52e3bd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -292,7 +292,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double KLFitter::ResGaussPt::p </td>
+          <td class="memname">double KLFitter::ResGaussPt::logp </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -338,9 +338,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Logarithm of the probability. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">KLFitter::ResolutionBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5f783b5e8c3fc62fb476235f5409d515">KLFitter::ResolutionBase</a>.</p>
 
 </div>
 </div>

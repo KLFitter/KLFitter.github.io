@@ -133,12 +133,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a0cf40af2cc7ad2744d8c38140db33aa4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a0cf40af2cc7ad2744d8c38140db33aa4">GetMean</a> (double x)=0</td></tr>
 <tr class="memdesc:a0cf40af2cc7ad2744d8c38140db33aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean from the TF parameters and the value of x.  <a href="#a0cf40af2cc7ad2744d8c38140db33aa4">More...</a><br/></td></tr>
 <tr class="separator:a0cf40af2cc7ad2744d8c38140db33aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5da3b0a68254cfaaad772bb6df92fb4f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a5da3b0a68254cfaaad772bb6df92fb4f">p</a> (double x, double xmeas, bool *good, double=0) override</td></tr>
-<tr class="memdesc:a5da3b0a68254cfaaad772bb6df92fb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a5da3b0a68254cfaaad772bb6df92fb4f">More...</a><br/></td></tr>
-<tr class="separator:a5da3b0a68254cfaaad772bb6df92fb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da5c7e349aabcd00b65727877b891bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a2da5c7e349aabcd00b65727877b891bf">CrystalBallFunction</a> (double x, double alpha, double n, double sigma, double mean)</td></tr>
-<tr class="memdesc:a2da5c7e349aabcd00b65727877b891bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that calculates CrystalBall See twiki: <a href="https://en.wikipedia.org/wiki/Crystal_Ball_function">https://en.wikipedia.org/wiki/Crystal_Ball_function</a>.  <a href="#a2da5c7e349aabcd00b65727877b891bf">More...</a><br/></td></tr>
-<tr class="separator:a2da5c7e349aabcd00b65727877b891bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab051fb38cc627f2d2287c020b3f5c35e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#ab051fb38cc627f2d2287c020b3f5c35e">logp</a> (double x, double xmeas, bool *good, double=0) override</td></tr>
+<tr class="memdesc:ab051fb38cc627f2d2287c020b3f5c35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#ab051fb38cc627f2d2287c020b3f5c35e">More...</a><br/></td></tr>
+<tr class="separator:ab051fb38cc627f2d2287c020b3f5c35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c78762e222d8fbfe6b3f74c5c5a0d3d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a7c78762e222d8fbfe6b3f74c5c5a0d3d">LogCrystalBallFunction</a> (double x, double alpha, double n, double sigma, double mean)</td></tr>
+<tr class="memdesc:a7c78762e222d8fbfe6b3f74c5c5a0d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that calculates CrystalBall See twiki: <a href="https://en.wikipedia.org/wiki/Crystal_Ball_function">https://en.wikipedia.org/wiki/Crystal_Ball_function</a>.  <a href="#a7c78762e222d8fbfe6b3f74c5c5a0d3d">More...</a><br/></td></tr>
+<tr class="separator:a7c78762e222d8fbfe6b3f74c5c5a0d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a46517728a5fd107641e9b0e37909c2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a7a46517728a5fd107641e9b0e37909c2">ApproxError</a> (double x)</td></tr>
 <tr class="memdesc:a7a46517728a5fd107641e9b0e37909c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">An approximation of the error function needed to calculate crystal ball normalization with precision &lt; 1e-4.  <a href="#a7a46517728a5fd107641e9b0e37909c2">More...</a><br/></td></tr>
 <tr class="separator:a7a46517728a5fd107641e9b0e37909c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,63 +301,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="a2da5c7e349aabcd00b65727877b891bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double KLFitter::ResCrystalBallBase::CrystalBallFunction </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>alpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>n</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sigma</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>mean</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A function that calculates CrystalBall See twiki: <a href="https://en.wikipedia.org/wiki/Crystal_Ball_function">https://en.wikipedia.org/wiki/Crystal_Ball_function</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td></td></tr>
-    <tr><td class="paramname">Alpha</td><td>parameter </td></tr>
-    <tr><td class="paramname">n</td><td>parameter </td></tr>
-    <tr><td class="paramname">sigma</td><td>parameter </td></tr>
-    <tr><td class="paramname">mean</td><td>parameter </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>CrystalBall value for X </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a744e0b5aa1b44b8cf23609041c7089e2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -463,7 +406,64 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="a5da3b0a68254cfaaad772bb6df92fb4f"></a>
+<a class="anchor" id="a7c78762e222d8fbfe6b3f74c5c5a0d3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KLFitter::ResCrystalBallBase::LogCrystalBallFunction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sigma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mean</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function that calculates CrystalBall See twiki: <a href="https://en.wikipedia.org/wiki/Crystal_Ball_function">https://en.wikipedia.org/wiki/Crystal_Ball_function</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">Alpha</td><td>parameter </td></tr>
+    <tr><td class="paramname">n</td><td>parameter </td></tr>
+    <tr><td class="paramname">sigma</td><td>parameter </td></tr>
+    <tr><td class="paramname">mean</td><td>parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Logarithm of CrystalBall value for X </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab051fb38cc627f2d2287c020b3f5c35e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -471,7 +471,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double KLFitter::ResCrystalBallBase::p </td>
+          <td class="memname">double KLFitter::ResCrystalBallBase::logp </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -517,9 +517,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Logarithm of the probability. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">KLFitter::ResolutionBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5f783b5e8c3fc62fb476235f5409d515">KLFitter::ResolutionBase</a>.</p>
 
 </div>
 </div>

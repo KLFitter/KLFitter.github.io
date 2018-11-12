@@ -126,9 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38e30d8e8946466005fcfdbf92f258e3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a38e30d8e8946466005fcfdbf92f258e3">GetSigma</a> (double par=0) override</td></tr>
 <tr class="memdesc:a38e30d8e8946466005fcfdbf92f258e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the width of the TF depending on the measured value of x.  <a href="#a38e30d8e8946466005fcfdbf92f258e3">More...</a><br/></td></tr>
 <tr class="separator:a38e30d8e8946466005fcfdbf92f258e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a0f7dbea14eaef7b07c393e9a0c5f96ea">p</a> (double x, double xmeas, bool *good, double par=0) override</td></tr>
-<tr class="memdesc:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a0f7dbea14eaef7b07c393e9a0c5f96ea">More...</a><br/></td></tr>
-<tr class="separator:a0f7dbea14eaef7b07c393e9a0c5f96ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1f2fd50edd863bad6eefb3da8f3dc4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a9d1f2fd50edd863bad6eefb3da8f3dc4">logp</a> (double x, double xmeas, bool *good, double par=0) override</td></tr>
+<tr class="memdesc:a9d1f2fd50edd863bad6eefb3da8f3dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a9d1f2fd50edd863bad6eefb3da8f3dc4">More...</a><br/></td></tr>
+<tr class="separator:a9d1f2fd50edd863bad6eefb3da8f3dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Member functions (Set)</div></td></tr>
 <tr class="memitem:ad043e090a251ef5db5933beca40d6576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_gauss.html#ad043e090a251ef5db5933beca40d6576">SetSigma</a> (double sigma)</td></tr>
 <tr class="memdesc:ad043e090a251ef5db5933beca40d6576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width of the Gaussian.  <a href="#ad043e090a251ef5db5933beca40d6576">More...</a><br/></td></tr>
@@ -249,7 +249,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="a0f7dbea14eaef7b07c393e9a0c5f96ea"></a>
+<a class="anchor" id="a9d1f2fd50edd863bad6eefb3da8f3dc4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -257,7 +257,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double KLFitter::ResGauss::p </td>
+          <td class="memname">double KLFitter::ResGauss::logp </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -303,9 +303,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Logarithm of the probability. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">KLFitter::ResolutionBase</a>.</p>
+<p>Reimplemented from <a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5f783b5e8c3fc62fb476235f5409d515">KLFitter::ResolutionBase</a>.</p>
 
 </div>
 </div>

@@ -133,9 +133,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:ac9687c343bcbfb92106643cbead64904"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#ac9687c343bcbfb92106643cbead64904">GetSigma</a> (double par)=0</td></tr>
 <tr class="memdesc:ac9687c343bcbfb92106643cbead64904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the (approximate) width of the TF depending on the relevant parameter (mostly xmeas, but sumET in case of <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html" title="A class describing a Gaussian resolution, parametrized for MET. ">ResGauss_MET</a>).  <a href="#ac9687c343bcbfb92106643cbead64904">More...</a><br/></td></tr>
 <tr class="separator:ac9687c343bcbfb92106643cbead64904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9e6db728d93a2ec059055db35185e3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#aee9e6db728d93a2ec059055db35185e3">p</a> (double, double, bool *good, double=0)</td></tr>
-<tr class="memdesc:aee9e6db728d93a2ec059055db35185e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#aee9e6db728d93a2ec059055db35185e3">More...</a><br/></td></tr>
-<tr class="separator:aee9e6db728d93a2ec059055db35185e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f783b5e8c3fc62fb476235f5409d515"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a5f783b5e8c3fc62fb476235f5409d515">logp</a> (double, double, bool *good, double=0)</td></tr>
+<tr class="memdesc:a5f783b5e8c3fc62fb476235f5409d515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a5f783b5e8c3fc62fb476235f5409d515">More...</a><br/></td></tr>
+<tr class="separator:a5f783b5e8c3fc62fb476235f5409d515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a289ff55b03737c6b2bf5264c581627a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_resolution_base.html#a289ff55b03737c6b2bf5264c581627a0">Par</a> (int index, double *par)</td></tr>
 <tr class="memdesc:a289ff55b03737c6b2bf5264c581627a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a parameter of the parameterization.  <a href="#a289ff55b03737c6b2bf5264c581627a0">More...</a><br/></td></tr>
 <tr class="separator:a289ff55b03737c6b2bf5264c581627a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,7 +274,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="aee9e6db728d93a2ec059055db35185e3"></a>
+<a class="anchor" id="a5f783b5e8c3fc62fb476235f5409d515"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -282,7 +282,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual double KLFitter::ResolutionBase::p </td>
+          <td class="memname">virtual double KLFitter::ResolutionBase::logp </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname">, </td>
@@ -328,9 +328,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Logarithm of the probability. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a70b9c45ddb8434c71a018ea8b1c396c5">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_single_gauss_linear_base.html#aef092cf2f35fb91bd0349290aa116fad">KLFitter::ResSingleGaussLinearBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#a4aec18282b01f6a7b68893174b6b5666">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#ab43390603cb410970465a2bfb5331885">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#af1c36390b74c0b8473828194d724f11d">KLFitter::ResGauss_MET</a>, <a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#a5da3b0a68254cfaaad772bb6df92fb4f">KLFitter::ResCrystalBallBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a0f7dbea14eaef7b07c393e9a0c5f96ea">KLFitter::ResGauss</a>, and <a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#a4670f78a70f857dc1e230224a3794cd6">KLFitter::ResSingleGaussBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_k_l_fitter_1_1_res_double_gauss_base.html#a6c3e4bef815805dfbe5f1039c4ff6cdc">KLFitter::ResDoubleGaussBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_single_gauss_linear_base.html#a426d7d5c0c32f970936605251aad233f">KLFitter::ResSingleGaussLinearBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_e.html#ad3e906e881ba985a4ce5cc978299be8a">KLFitter::ResGaussE</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss_pt.html#ae39654f4efc69681e3d670d09d52e3bd">KLFitter::ResGaussPt</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss___m_e_t.html#a00bc555f1ef908a2aea3ea2e7afd640c">KLFitter::ResGauss_MET</a>, <a class="el" href="class_k_l_fitter_1_1_res_crystal_ball_base.html#ab051fb38cc627f2d2287c020b3f5c35e">KLFitter::ResCrystalBallBase</a>, <a class="el" href="class_k_l_fitter_1_1_res_gauss.html#a9d1f2fd50edd863bad6eefb3da8f3dc4">KLFitter::ResGauss</a>, and <a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#a9d240567ecb3440796ee52f0682727f2">KLFitter::ResSingleGaussBase</a>.</p>
 
 </div>
 </div>

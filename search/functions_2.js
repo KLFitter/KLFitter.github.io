@@ -14,6 +14,5 @@ var searchData=
   ['checksinglegaussiansanity',['CheckSingleGaussianSanity',['../class_k_l_fitter_1_1_res_single_gauss_base.html#a88c86c9dee7f48ac478837c21713f84e',1,'KLFitter::ResSingleGaussBase::CheckSingleGaussianSanity()'],['../class_k_l_fitter_1_1_res_single_gauss_linear_base.html#a2ea9a4c991b65182e825a6d7a71e27d3',1,'KLFitter::ResSingleGaussLinearBase::CheckSingleGaussianSanity()']]],
   ['convergencestatus',['ConvergenceStatus',['../class_k_l_fitter_1_1_fitter.html#ad438757ea331ced65373a22fa90d163c',1,'KLFitter::Fitter']]],
   ['createpermutations',['CreatePermutations',['../class_k_l_fitter_1_1_permutations.html#adb126781eec4ef27ac8b100302ba51d4',1,'KLFitter::Permutations']]],
-  ['createsubtable',['CreateSubTable',['../class_k_l_fitter_1_1_permutations.html#a858ea2b06c1c5e75e8cd8119080be146',1,'KLFitter::Permutations']]],
-  ['crystalballfunction',['CrystalBallFunction',['../class_k_l_fitter_1_1_res_crystal_ball_base.html#a2da5c7e349aabcd00b65727877b891bf',1,'KLFitter::ResCrystalBallBase']]]
+  ['createsubtable',['CreateSubTable',['../class_k_l_fitter_1_1_permutations.html#a858ea2b06c1c5e75e8cd8119080be146',1,'KLFitter::Permutations']]]
 ];
