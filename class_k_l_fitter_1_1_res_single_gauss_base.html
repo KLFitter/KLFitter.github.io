@@ -128,9 +128,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a31b64c523de64c646661354cba0f3948"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#a31b64c523de64c646661354cba0f3948">GetMean</a> (double x)=0</td></tr>
 <tr class="memdesc:a31b64c523de64c646661354cba0f3948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean of the Gaussian from the TF parameters and the value of x.  <a href="#a31b64c523de64c646661354cba0f3948">More...</a><br/></td></tr>
 <tr class="separator:a31b64c523de64c646661354cba0f3948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60f6470bf8adc1697a4f783bc6967f5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#af60f6470bf8adc1697a4f783bc6967f5">GetSigma</a> (double x)=0</td></tr>
-<tr class="memdesc:af60f6470bf8adc1697a4f783bc6967f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the width of the Gaussian from the TF parameters and the value of x.  <a href="#af60f6470bf8adc1697a4f783bc6967f5">More...</a><br/></td></tr>
-<tr class="separator:af60f6470bf8adc1697a4f783bc6967f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56e20065bc90f24da673b51c3bd40783"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#a56e20065bc90f24da673b51c3bd40783">GetSigma</a> (double x) override=0</td></tr>
+<tr class="memdesc:a56e20065bc90f24da673b51c3bd40783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the width of the Gaussian from the TF parameters and the value of x.  <a href="#a56e20065bc90f24da673b51c3bd40783">More...</a><br/></td></tr>
+<tr class="separator:a56e20065bc90f24da673b51c3bd40783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d240567ecb3440796ee52f0682727f2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_k_l_fitter_1_1_res_single_gauss_base.html#a9d240567ecb3440796ee52f0682727f2">logp</a> (double x, double xmeas, bool *good, double=0) override</td></tr>
 <tr class="memdesc:a9d240567ecb3440796ee52f0682727f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the probability of the true value of x given the measured value, xmeas.  <a href="#a9d240567ecb3440796ee52f0682727f2">More...</a><br/></td></tr>
 <tr class="separator:a9d240567ecb3440796ee52f0682727f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,7 +288,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
-<a class="anchor" id="af60f6470bf8adc1697a4f783bc6967f5"></a>
+<a class="anchor" id="a56e20065bc90f24da673b51c3bd40783"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -305,7 +305,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
