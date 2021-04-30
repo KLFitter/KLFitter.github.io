@@ -8,6 +8,7 @@ var searchData=
   ['_7edetectorsnowmass',['~DetectorSnowmass',['../class_k_l_fitter_1_1_detector_snowmass.html#a9bc2bf9bf6e67eb65b61d5d4c8746333',1,'KLFitter::DetectorSnowmass']]],
   ['_7efitter',['~Fitter',['../class_k_l_fitter_1_1_fitter.html#ae5b325ede007dab30f340f2632c943fb',1,'KLFitter::Fitter']]],
   ['_7elikelihoodbase',['~LikelihoodBase',['../class_k_l_fitter_1_1_likelihood_base.html#ae6d612d755f93425812f1413221aecec',1,'KLFitter::LikelihoodBase']]],
+  ['_7elikelihoodonehadronictop',['~LikelihoodOneHadronicTop',['../class_k_l_fitter_1_1_likelihood_one_hadronic_top.html#a2a7abdc0f5f6bf2c2bd97f1ec0c9a13f',1,'KLFitter::LikelihoodOneHadronicTop']]],
   ['_7elikelihoodsgtopwtlj',['~LikelihoodSgTopWtLJ',['../class_k_l_fitter_1_1_likelihood_sg_top_wt_l_j.html#a4634f37e5a9eff8742e37e32d323e8cc',1,'KLFitter::LikelihoodSgTopWtLJ']]],
   ['_7elikelihoodtopallhadronic',['~LikelihoodTopAllHadronic',['../class_k_l_fitter_1_1_likelihood_top_all_hadronic.html#a2e7548cf7c8fa2f08b8e832af3c49957',1,'KLFitter::LikelihoodTopAllHadronic']]],
   ['_7elikelihoodtopdilepton',['~LikelihoodTopDilepton',['../class_k_l_fitter_1_1_likelihood_top_dilepton.html#a17b1da50ea379c96cb9afb69d8be1b3d',1,'KLFitter::LikelihoodTopDilepton']]],
